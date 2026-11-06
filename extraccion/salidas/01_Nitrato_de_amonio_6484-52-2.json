@@ -1,0 +1,382 @@
+{
+ "archivo": "01_Nitrato_de_amonio_6484-52-2.pdf",
+ "lector": "pdfplumber",
+ "paginas": 11,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "SECTION 1: IDENTIFICATION OF THE SUBSTANCE/MIXTURE AND OF THE",
+   "pagina": 1,
+   "lineas": 25,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "SECTION 2: HAZARDS IDENTIFICATION",
+   "pagina": 1,
+   "lineas": 26,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "SECTION 3: COMPOSITION/INFORMATION ON INGREDIENTS",
+   "pagina": 2,
+   "lineas": 7,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "SECTION 4: FIRST AID MEASURES",
+   "pagina": 2,
+   "lineas": 14,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "SECTION 5: FIREFIGHTING MEASURES",
+   "pagina": 3,
+   "lineas": 15,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "SECTION 6: ACCIDENTAL RELEASE MEASURES",
+   "pagina": 3,
+   "lineas": 10,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "SECTION 7: HANDLING AND STORAGE",
+   "pagina": 4,
+   "lineas": 13,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "SECTION 8: EXPOSURE CONTROLS/PERSONAL PROTECTION",
+   "pagina": 4,
+   "lineas": 57,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "SECTION 9: PHYSICAL AND CHEMICAL PROPERTIES",
+   "pagina": 5,
+   "lineas": 31,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "SECTION 10: STABILITY AND REACTIVITY",
+   "pagina": 6,
+   "lineas": 15,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "SECTION 11: TOXICOLOGICAL INFORMATION",
+   "pagina": 6,
+   "lineas": 31,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "SECTION 12: ECOLOGICAL INFORMATION",
+   "pagina": 7,
+   "lineas": 22,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "SECTION 13: DISPOSAL CONSIDERATIONS",
+   "pagina": 8,
+   "lineas": 8,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "SECTION 14: TRANSPORT INFORMATION",
+   "pagina": 8,
+   "lineas": 19,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "SECTION 15: REGULATORY INFORMATION",
+   "pagina": 9,
+   "lineas": 51,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "SECTION 16: OTHER INFORMATION",
+   "pagina": 10,
+   "lineas": 47,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Ammonium nitrate",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Product Description: Ammonium nitrate"
+  },
+  "cas_seccion1": {
+   "valor": "6484-52-2",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "CAS No 6484-52-2"
+  },
+  "cas_seccion3": [
+   {
+    "valor": "6484-52-2",
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Ammonium nitrate 6484-52-2 EEC No. 229-347-8 >95 Ox. Sol. 3 (H272)"
+   }
+  ],
+  "proveedor": {
+   "nombre": "Fisher Scientific UK",
+   "direccion": "Bishop Meadow Road, Loughborough, Leicestershire LE11 5RG, United Kingdom",
+   "telefono": null,
+   "estado": "por revisar",
+   "pagina": 1,
+   "cita": "1.3. Details of the supplier of the safety data sheet / Company / UK entity/business name / Fisher Scientific UK / Bishop Meadow Road, / Loughborough, Leicestershire LE11 5RG, United Kingdom",
+   "notas": [
+    "la ficha nombra un segundo proveedor, que no se tomó: revisar",
+    "falta teléfono"
+   ]
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "6484-52-2",
+  "ficha": [
+   "6484-52-2"
+  ],
+  "veredicto": "coincide",
+  "excel": "Nitrato de amonio (base del ANFO)",
+  "cas_excel": "6484-52-2",
+  "hallazgos": [
+   "Producto de la ficha: «Ammonium nitrate». Sustancia en el Excel de fichas: «Nitrato de amonio (base del ANFO)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "código",
+   "P": "código"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H272",
+    "codigo_base": "H272",
+    "texto_ficha": "May intensify fire; oxidizer",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H272 - May intensify fire; oxidizer",
+    "apariciones": 2
+   },
+   {
+    "codigo": "H319",
+    "codigo_base": "H319",
+    "texto_ficha": "Causes serious eye irritation",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H319 - Causes serious eye irritation",
+    "apariciones": 2
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P220",
+    "codigo_base": "P220",
+    "texto_ficha": "Keep away from clothing and other combustible materials",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P220 - Keep away from clothing and other combustible materials",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P280",
+    "codigo_base": "P280",
+    "texto_ficha": "Wear protective gloves/protective clothing/eye protection/face protection",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P305+P351+P338",
+    "codigo_base": "P305+P351+P338",
+    "texto_ficha": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P305 + P351 + P338 - IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P370+P378",
+    "codigo_base": "P370+P378",
+    "texto_ficha": "In case of fire: Use water spray for extinction",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P370 + P378 - In case of fire: Use water spray for extinction",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P210",
+    "codigo_base": "P210",
+    "texto_ficha": "Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P210 - Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking",
+    "apariciones": 1
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Oxidizing solids",
+    "categoria": "3",
+    "detalle": null,
+    "codigo_en_linea": "H272",
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Oxidizing solids Category 3 (H272)",
+    "codigos_compatibles": [
+     "H272"
+    ]
+   },
+   {
+    "clase": "Serious Eye Damage/Eye Irritation",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": "H319",
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Serious Eye Damage/Eye Irritation Category 2 (H319)",
+    "codigos_compatibles": [
+     "H319"
+    ]
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Atención",
+   "literal": "Warning",
+   "estado": "encontrado",
+   "pagina": 2,
+   "cita": "Signal Word Warning"
+  },
+  "categoria_por_frase_H": {
+   "H272": [
+    "3"
+   ],
+   "H319": [
+    "2"
+   ]
+  }
+ },
+ "limites": {
+  "limites": [
+   {
+    "agente": "Ammonium nitrate",
+    "cas": "6484-52-2",
+    "organismo": "Chronic effects systemic (Inhalation)",
+    "tipo": "DNEL",
+    "valor": "36",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "Chronic effects systemic (Inhalation): DNEL = 36mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   }
+  ],
+  "hallazgos": [],
+  "sin_limites": false
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 6,
+    "cita": "10.1. Reactivity / Yes",
+    "texto": "Yes",
+    "estado": "encontrado"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 6,
+    "cita": "10.2. Chemical stability / Oxidizer: Contact with combustible/organic material may cause fire. Hygroscopic.",
+    "texto": "Oxidizer: Contact with combustible/organic material may cause fire. Hygroscopic.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 6,
+    "cita": "10.3. Possibility of hazardous reactions / Hazardous Reactions None under normal processing.",
+    "texto": "None under normal processing.",
+    "estado": "la ficha no informa"
+   },
+   "polimerizacion": {
+    "nombre": "Polimerización peligrosa",
+    "pagina": 6,
+    "cita": "Hazardous Polymerization Hazardous polymerization does not occur.",
+    "texto": "Hazardous polymerization does not occur.",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 6,
+    "cita": "10.4. Conditions to avoid / Incompatible products. Excess heat. Combustible material. Avoid dust formation. Exposure / to moist air or water.",
+    "texto": "Incompatible products. Excess heat. Combustible material. Avoid dust formation. Exposure to moist air or water.",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 6,
+    "cita": "10.5. Incompatible materials / Strong oxidizing agents. Strong reducing agents. Strong acids. Finely powdered metals. / Combustible material.",
+    "texto": "Strong oxidizing agents. Strong reducing agents. Strong acids. Finely powdered metals. Combustible material.",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 6,
+    "cita": "10.6. Hazardous decomposition products / Nitrogen oxides (NOx). Ammonia.",
+    "texto": "Nitrogen oxides (NOx). Ammonia.",
+    "estado": "encontrado"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Proveedor por revisar; la ficha nombra un segundo proveedor, que no se tomó: revisar; falta teléfono"
+  },
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Ammonium nitrate». Sustancia en el Excel de fichas: «Nitrato de amonio (base del ANFO)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  }
+ ],
+ "proteccion": {
+  "texto": "8.2. Exposure controls Engineering Measures Ensure that eyewash stations and safety showers are close to the workstation location. Ensure adequate ventilation, especially in confined areas. Wherever possible, engineering control measures such as the isolation or enclosure of the process, the introduction of process or equipment changes to minimise release or contact, and the use of properly designed ventilation systems, should be adopted to control hazardous materials at source Personal protective equipment Eye Protection Goggles (European standard - EN 166) Hand Protection Protective gloves Glove material Breakthrough time Glove thickness EU standard Glove comments Natural rubber See manufacturers - EN 374 (minimum requirement) Nitrile rubber recommendations Neoprene PVC Skin and body protection Wear appropriate protective gloves and clothing to prevent skin exposure. Inspect gloves before use. Please observe the instructions regarding permeability and breakthrough time which are provided by the supplier of the gloves. (Refer to manufacturer/supplier for information) Ensure gloves are suitable for the task: Chemical compatability, Dexterity, Operational conditions, User susceptibility, e.g. sensitisation effects, also take into consideration the specific local conditions under which the product is used, such as the danger of cuts, abrasion. Remove gloves with care avoiding skin contamination. Respiratory Protection When workers are facing concentrations above the exposure limit they must use appropriate certified respirators. To protect the wearer, respiratory protective equipment must be the correct fit and be used and maintained properly Large scale/emergency use Use a NIOSH/MSHA or European Standard EN 136 approved respirator if exposure limits are exceeded or if ir",
+  "pagina": 5,
+  "estado": "encontrado",
+  "cortado": true,
+  "cita": "8.2. Exposure controls"
+ }
+}

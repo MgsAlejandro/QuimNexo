@@ -1,0 +1,1250 @@
+{
+ "archivo": "06_Estireno_100-42-5.pdf",
+ "lector": "pdfplumber",
+ "paginas": 10,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "1. Identification",
+   "pagina": 1,
+   "lineas": 17,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "2. Hazard(s) identification",
+   "pagina": 1,
+   "lineas": 70,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "3. Composition/information on Ingredients",
+   "pagina": 3,
+   "lineas": 2,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "4. First-aid measures",
+   "pagina": 3,
+   "lineas": 13,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "5. Fire-fighting measures",
+   "pagina": 3,
+   "lineas": 22,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "6. Accidental release measures",
+   "pagina": 4,
+   "lineas": 7,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "7. Handling and Storage",
+   "pagina": 4,
+   "lineas": 7,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "8. Exposure controls / personal protection",
+   "pagina": 4,
+   "lineas": 21,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "9. Physical and chemical properties",
+   "pagina": 5,
+   "lineas": 34,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "10. Stability and reactivity",
+   "pagina": 5,
+   "lineas": 9,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "11. Toxicological information",
+   "pagina": 6,
+   "lineas": 46,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "12. Ecological information",
+   "pagina": 7,
+   "lineas": 23,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "13. Disposal considerations",
+   "pagina": 7,
+   "lineas": 3,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "14. Transport information",
+   "pagina": 7,
+   "lineas": 20,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "15. Regulatory Information",
+   "pagina": 8,
+   "lineas": 86,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "16. Other Information",
+   "pagina": 10,
+   "lineas": 17,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Styrene",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Product Name Styrene"
+  },
+  "cas_seccion1": {
+   "valor": "100-42-5",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "CAS No 100-42-5"
+  },
+  "cas_seccion3": [
+   {
+    "valor": "100-42-5",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "Styrene 100-42-5 >95"
+   }
+  ],
+  "proveedor": {
+   "nombre": "Thermo Fisher Scientific Chemicals, Inc.",
+   "direccion": "30 Bond Street, Ward Hill, MA 01835-8099",
+   "telefono": "800-343-0660",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Details of the supplier of the safety data sheet / Company / Thermo Fisher Scientific Chemicals, Inc. / 30 Bond Street / Ward Hill, MA 01835-8099 / Tel: 800-343-0660 / Fax: 800-322-4757",
+   "notas": []
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "100-42-5",
+  "ficha": [
+   "100-42-5"
+  ],
+  "veredicto": "coincide",
+  "excel": "Estireno (diluyente de resina poliéster de anclaje)",
+  "cas_excel": "100-42-5",
+  "hallazgos": [
+   "Producto de la ficha: «Styrene». Sustancia en el Excel de fichas: «Estireno (diluyente de resina poliéster de anclaje)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "texto",
+   "P": "texto"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H226",
+    "texto_ficha": "Flammable liquid and vapor",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Flammable liquid and vapor",
+    "texto_sga": "Flammable liquid and vapour",
+    "candidatos": [
+     [
+      "H226",
+      1.0
+     ],
+     [
+      "H225",
+      0.8
+     ],
+     [
+      "H224",
+      0.8
+     ]
+    ]
+   },
+   {
+    "codigo": "H304",
+    "texto_ficha": "May be fatal if swallowed and enters airways",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "May be fatal if swallowed and enters airways",
+    "texto_sga": "May be fatal if swallowed and enters airways",
+    "candidatos": [
+     [
+      "H304",
+      1.0
+     ],
+     [
+      "H305",
+      0.88
+     ]
+    ]
+   },
+   {
+    "codigo": "H315",
+    "texto_ficha": "Causes skin irritation",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Causes skin irritation",
+    "texto_sga": "Causes skin irritation",
+    "candidatos": [
+     [
+      "H315",
+      1.0
+     ],
+     [
+      "H316",
+      0.75
+     ],
+     [
+      "H320",
+      0.67
+     ]
+    ]
+   },
+   {
+    "codigo": "H319",
+    "texto_ficha": "Causes serious eye irritation",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Causes serious eye irritation",
+    "texto_sga": "Causes serious eye irritation",
+    "candidatos": [
+     [
+      "H319",
+      1.0
+     ],
+     [
+      "H320",
+      0.75
+     ],
+     [
+      "H318",
+      0.75
+     ]
+    ]
+   },
+   {
+    "codigo": "H332",
+    "texto_ficha": "Harmful if inhaled",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Harmful if inhaled",
+    "texto_sga": "Harmful if inhaled",
+    "candidatos": [
+     [
+      "H332",
+      1.0
+     ],
+     [
+      "H331",
+      0.67
+     ],
+     [
+      "H330",
+      0.67
+     ]
+    ]
+   },
+   {
+    "codigo": "H335",
+    "texto_ficha": "May cause respiratory irritation",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "May cause respiratory irritation",
+    "texto_sga": "May cause respiratory irritation",
+    "candidatos": [
+     [
+      "H335",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "H336",
+    "texto_ficha": "May cause drowsiness or dizziness",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "May cause drowsiness or dizziness",
+    "texto_sga": "May cause drowsiness or dizziness",
+    "candidatos": [
+     [
+      "H336",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": null,
+    "texto_ficha": "Suspected of damaging the unborn child",
+    "estado": "por revisar",
+    "parecido": 0.75,
+    "pagina": 2,
+    "cita": "Suspected of damaging the unborn child",
+    "texto_sga": null,
+    "candidatos": [
+     [
+      "H361",
+      0.75
+     ]
+    ]
+   },
+   {
+    "codigo": "H372",
+    "texto_ficha": "Causes damage to organs through prolonged or repeated exposure",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Causes damage to organs through prolonged or repeated exposure",
+    "texto_sga": "Causes damage to organs ( state all organs affected, if known) through prolonged or repeated exposure (state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)",
+    "candidatos": [
+     [
+      "H372",
+      1.0
+     ],
+     [
+      "H373",
+      0.9
+     ]
+    ]
+   },
+   {
+    "codigo": "H351",
+    "texto_ficha": "Suspected of causing cancer",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Suspected of causing cancer",
+    "texto_sga": "Suspected of causing cancer (state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)",
+    "candidatos": [
+     [
+      "H351",
+      1.0
+     ],
+     [
+      "H341",
+      0.6
+     ]
+    ]
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P201",
+    "texto_ficha": "Obtain special instructions before use",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Obtain special instructions before use",
+    "texto_sga": "Obtain special instructions before use.",
+    "candidatos": [
+     [
+      "P201",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P202",
+    "texto_ficha": "Do not handle until all safety precautions have been read and understood",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Do not handle until all safety precautions have been read and understood",
+    "texto_sga": "Do not handle until all safety precautions have been read and understood.",
+    "candidatos": [
+     [
+      "P202",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P271",
+    "texto_ficha": "Use only outdoors or in a well-ventilated area",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Use only outdoors or in a well-ventilated area",
+    "texto_sga": "Use only outdoors or in a well-ventilated area.",
+    "candidatos": [
+     [
+      "P271",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P264",
+    "texto_ficha": "Wash face, hands and any exposed skin thoroughly after handling Wear eye/face protection",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Wash face, hands and any exposed skin thoroughly after handling / Wear eye/face protection",
+    "texto_sga": "Wash ... thoroughly after handling.",
+    "candidatos": [
+     [
+      "P264",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P260",
+    "texto_ficha": "Do not breathe dust/fume/gas/mist/vapors/spray",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Do not breathe dust/fume/gas/mist/vapors/spray",
+    "texto_sga": "Do not breathe dust/fume/gas/mist/vapours/spray.",
+    "candidatos": [
+     [
+      "P260",
+      1.0
+     ],
+     [
+      "P261",
+      0.67
+     ]
+    ]
+   },
+   {
+    "codigo": "P270",
+    "texto_ficha": "Do not eat, drink or smoke when using this product",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Do not eat, drink or smoke when using this product",
+    "texto_sga": "Do not eat, drink or smoke when using this product.",
+    "candidatos": [
+     [
+      "P270",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P210",
+    "texto_ficha": "Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking",
+    "texto_sga": "Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking.",
+    "candidatos": [
+     [
+      "P210",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P233",
+    "texto_ficha": "Keep container tightly closed",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Keep container tightly closed",
+    "texto_sga": "Keep container tightly closed.",
+    "candidatos": [
+     [
+      "P233",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P240",
+    "texto_ficha": "Ground and bond container and receiving equipment",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Ground and bond container and receiving equipment",
+    "texto_sga": "Ground and bond container and receiving equipment.",
+    "candidatos": [
+     [
+      "P240",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P241",
+    "texto_ficha": "Use explosion-proof electrical/ventilating/lighting equipment",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Use explosion-proof electrical/ventilating/lighting equipment",
+    "texto_sga": "Use explosion-proof [electrical/ventilating/lighting/...] equipment.",
+    "candidatos": [
+     [
+      "P241",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P235",
+    "texto_ficha": "Keep cool",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Keep cool",
+    "texto_sga": "Keep cool.",
+    "candidatos": [
+     [
+      "P235",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P280",
+    "texto_ficha": "Wear protective gloves/protective clothing/eye protection/face protection",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Wear protective gloves/protective clothing/eye protection/face protection",
+    "texto_sga": "Wear protective gloves/protective clothing/eye protection/face protection.",
+    "candidatos": [
+     [
+      "P280",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P243",
+    "texto_ficha": "Take action to prevent static discharges",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Take action to prevent static discharges",
+    "texto_sga": "Take action to prevent static discharges.",
+    "candidatos": [
+     [
+      "P243",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P242",
+    "texto_ficha": "Use non-sparking tools",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Use non-sparking tools",
+    "texto_sga": "Use non-sparking tools.",
+    "candidatos": [
+     [
+      "P242",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P308+P313",
+    "texto_ficha": "IF exposed or concerned: Get medical attention/advice",
+    "estado": "encontrado",
+    "parecido": 0.88,
+    "pagina": 2,
+    "cita": "IF exposed or concerned: Get medical attention/advice",
+    "texto_sga": "IF exposed or concerned: Get medical advice/ attention.",
+    "candidatos": [
+     [
+      "P308+P313",
+      0.88
+     ]
+    ]
+   },
+   {
+    "codigo": "P304+P340",
+    "texto_ficha": "IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+    "texto_sga": "IF INHALED: Remove person to fresh air and keep comfortable for breathing.",
+    "candidatos": [
+     [
+      "P304+P340",
+      1.0
+     ],
+     [
+      "P340",
+      0.83
+     ]
+    ]
+   },
+   {
+    "codigo": "P332+P313",
+    "texto_ficha": "If skin irritation occurs: Get medical advice/attention",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "If skin irritation occurs: Get medical advice/attention",
+    "texto_sga": "If skin irritation occurs: Get medical advice/attention.",
+    "candidatos": [
+     [
+      "P332+P313",
+      1.0
+     ],
+     [
+      "P333+P313",
+      0.8
+     ],
+     [
+      "P337+P313",
+      0.75
+     ]
+    ]
+   },
+   {
+    "codigo": "P303+P361+P353",
+    "texto_ficha": "IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin with water or shower",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin with water or shower",
+    "texto_sga": "IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin with water [or shower].",
+    "candidatos": [
+     [
+      "P303+P361+P353",
+      1.0
+     ],
+     [
+      "P302+P352",
+      0.62
+     ]
+    ]
+   },
+   {
+    "codigo": "P362+P364",
+    "texto_ficha": "Take off contaminated clothing and wash before reuse",
+    "estado": "encontrado",
+    "parecido": 0.89,
+    "pagina": 2,
+    "cita": "Take off contaminated clothing and wash before reuse",
+    "texto_sga": "Take off contaminated clothing and wash it before reuse.",
+    "candidatos": [
+     [
+      "P362+P364",
+      0.89
+     ],
+     [
+      "P361+P364",
+      0.73
+     ]
+    ]
+   },
+   {
+    "codigo": "P305+P351+P338",
+    "texto_ficha": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing",
+    "texto_sga": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing.",
+    "candidatos": [
+     [
+      "P305+P351+P338",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P337+P313",
+    "texto_ficha": "If eye irritation persists: Get medical advice/attention",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "If eye irritation persists: Get medical advice/attention",
+    "texto_sga": "If eye irritation persists: Get medical advice/attention.",
+    "candidatos": [
+     [
+      "P337+P313",
+      1.0
+     ],
+     [
+      "P332+P313",
+      0.75
+     ],
+     [
+      "P308+P313",
+      0.62
+     ]
+    ]
+   },
+   {
+    "codigo": "P301+P310",
+    "texto_ficha": "IF SWALLOWED: Immediately call a POISON CENTER or doctor",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "IF SWALLOWED: Immediately call a POISON CENTER or doctor",
+    "texto_sga": "IF SWALLOWED: Immediately call a POISON CENTER/doctor/…",
+    "candidatos": [
+     [
+      "P301+P310",
+      1.0
+     ],
+     [
+      "P310",
+      1.0
+     ],
+     [
+      "P311",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P331",
+    "texto_ficha": "Do NOT induce vomiting",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Do NOT induce vomiting",
+    "texto_sga": "Do NOT induce vomiting.",
+    "candidatos": [
+     [
+      "P331",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P370+P378",
+    "texto_ficha": "Fire In case of fire: Use CO2, dry chemical, or foam to extinguish",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Fire / In case of fire: Use CO2, dry chemical, or foam to extinguish",
+    "texto_sga": "In case of fire: Use ... to extinguish.",
+    "candidatos": [
+     [
+      "P370+P378",
+      1.0
+     ],
+     [
+      "P378",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P405",
+    "texto_ficha": "Store locked up",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Store locked up",
+    "texto_sga": "Store locked up.",
+    "candidatos": [
+     [
+      "P405",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P403+P233",
+    "texto_ficha": "Store in a well-ventilated place. Keep container tightly closed",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Store in a well-ventilated place. Keep container tightly closed",
+    "texto_sga": "Store in a well-ventilated place. Keep container tightly closed.",
+    "candidatos": [
+     [
+      "P403+P233",
+      1.0
+     ],
+     [
+      "P403+P235",
+      0.7
+     ],
+     [
+      "P410+P403",
+      0.6
+     ]
+    ]
+   },
+   {
+    "codigo": "P501",
+    "texto_ficha": "Dispose of contents/container to an approved waste disposal plant",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 3,
+    "cita": "Dispose of contents/container to an approved waste disposal plant",
+    "texto_sga": "Dispose of contents/container to ...",
+    "candidatos": [
+     [
+      "P501",
+      1.0
+     ]
+    ]
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Flammable liquids",
+    "categoria": "3",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Flammable liquids Category 3",
+    "codigos_compatibles": [
+     "H226"
+    ]
+   },
+   {
+    "clase": "Acute Inhalation Toxicity - Vapors",
+    "categoria": "4",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Acute Inhalation Toxicity - Vapors Category 4",
+    "codigos_compatibles": [
+     "H332"
+    ]
+   },
+   {
+    "clase": "Skin Corrosion/Irritation",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Skin Corrosion/Irritation Category 2",
+    "codigos_compatibles": [
+     "H315"
+    ]
+   },
+   {
+    "clase": "Serious Eye Damage/Eye Irritation",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Serious Eye Damage/Eye Irritation Category 2",
+    "codigos_compatibles": [
+     "H319"
+    ]
+   },
+   {
+    "clase": "Carcinogenicity",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Carcinogenicity Category 2",
+    "codigos_compatibles": [
+     "H351"
+    ]
+   },
+   {
+    "clase": "Reproductive Toxicity",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Reproductive Toxicity Category 2",
+    "codigos_compatibles": []
+   },
+   {
+    "clase": "Specific target organ toxicity (single exposure)",
+    "categoria": "3",
+    "detalle": "Target Organs - Respiratory system.",
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Specific target organ toxicity (single exposure) Category 3 / Target Organs - Respiratory system.",
+    "codigos_compatibles": [
+     "H335",
+     "H336"
+    ]
+   },
+   {
+    "clase": "Specific target organ toxicity - (repeated exposure)",
+    "categoria": "1",
+    "detalle": "Target Organs - Ears, Central nervous system (CNS).",
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Specific target organ toxicity - (repeated exposure) Category 1 / Target Organs - Ears, Central nervous system (CNS).",
+    "codigos_compatibles": [
+     "H372"
+    ]
+   },
+   {
+    "clase": "Aspiration Toxicity",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Aspiration Toxicity Category 1",
+    "codigos_compatibles": [
+     "H304"
+    ]
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Peligro",
+   "literal": "Danger",
+   "estado": "encontrado",
+   "pagina": 2,
+   "cita": "Signal Word / Danger"
+  },
+  "categoria_por_frase_H": {
+   "H226": [
+    "3"
+   ],
+   "H304": [
+    "1"
+   ],
+   "H315": [
+    "2"
+   ],
+   "H319": [
+    "2"
+   ],
+   "H332": [
+    "4"
+   ],
+   "H335": [
+    "3"
+   ],
+   "H336": [
+    "3"
+   ],
+   "H372": [
+    "1"
+   ],
+   "H351": [
+    "2"
+   ]
+  }
+ },
+ "limites": {
+  "limites": [
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "ACGIH TLV",
+    "tipo": "TWA",
+    "valor": "10",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "ACGIH TLV: TWA: 10 ppm STEL: 20 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "ACGIH TLV",
+    "tipo": "STEL",
+    "valor": "20",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "ACGIH TLV: TWA: 10 ppm STEL: 20 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "TWA",
+    "valor": "50",
+    "unidad": "ppm",
+    "nota": "(Vacated)",
+    "cita": "OSHA PEL: (Vacated) TWA: 50 ppm (Vacated) TWA: 215 mg/m3 Ceiling: 200 ppm (Vacated) STEL: 100 ppm (Vacated) STEL: 425 mg/m3 TWA: 100 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "TWA",
+    "valor": "215",
+    "unidad": "mg/m3",
+    "nota": "(Vacated)",
+    "cita": "OSHA PEL: (Vacated) TWA: 50 ppm (Vacated) TWA: 215 mg/m3 Ceiling: 200 ppm (Vacated) STEL: 100 ppm (Vacated) STEL: 425 mg/m3 TWA: 100 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "Ceiling",
+    "valor": "200",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "OSHA PEL: (Vacated) TWA: 50 ppm (Vacated) TWA: 215 mg/m3 Ceiling: 200 ppm (Vacated) STEL: 100 ppm (Vacated) STEL: 425 mg/m3 TWA: 100 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "STEL",
+    "valor": "100",
+    "unidad": "ppm",
+    "nota": "(Vacated)",
+    "cita": "OSHA PEL: (Vacated) TWA: 50 ppm (Vacated) TWA: 215 mg/m3 Ceiling: 200 ppm (Vacated) STEL: 100 ppm (Vacated) STEL: 425 mg/m3 TWA: 100 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "STEL",
+    "valor": "425",
+    "unidad": "mg/m3",
+    "nota": "(Vacated)",
+    "cita": "OSHA PEL: (Vacated) TWA: 50 ppm (Vacated) TWA: 215 mg/m3 Ceiling: 200 ppm (Vacated) STEL: 100 ppm (Vacated) STEL: 425 mg/m3 TWA: 100 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "TWA",
+    "valor": "100",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "OSHA PEL: (Vacated) TWA: 50 ppm (Vacated) TWA: 215 mg/m3 Ceiling: 200 ppm (Vacated) STEL: 100 ppm (Vacated) STEL: 425 mg/m3 TWA: 100 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "IDLH",
+    "valor": "700",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "NIOSH: IDLH: 700 ppm REL = 50 ppm (TWA) REL = 215 mg/m3 (TWA) STEL: 100 ppm STEL: 425 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "REL",
+    "valor": "50",
+    "unidad": "ppm",
+    "nota": "(TWA)",
+    "cita": "NIOSH: IDLH: 700 ppm REL = 50 ppm (TWA) REL = 215 mg/m3 (TWA) STEL: 100 ppm STEL: 425 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "REL",
+    "valor": "215",
+    "unidad": "mg/m3",
+    "nota": "(TWA)",
+    "cita": "NIOSH: IDLH: 700 ppm REL = 50 ppm (TWA) REL = 215 mg/m3 (TWA) STEL: 100 ppm STEL: 425 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "STEL",
+    "valor": "100",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "NIOSH: IDLH: 700 ppm REL = 50 ppm (TWA) REL = 215 mg/m3 (TWA) STEL: 100 ppm STEL: 425 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "STEL",
+    "valor": "425",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "NIOSH: IDLH: 700 ppm REL = 50 ppm (TWA) REL = 215 mg/m3 (TWA) STEL: 100 ppm STEL: 425 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "Mexico OEL (TWA)",
+    "tipo": "TWA",
+    "valor": "20",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Mexico OEL (TWA): TWA: 20 ppm STEL: 40 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Styrene",
+    "cas": null,
+    "organismo": "Mexico OEL (TWA)",
+    "tipo": "STEL",
+    "valor": "40",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Mexico OEL (TWA): TWA: 20 ppm STEL: 40 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   }
+  ],
+  "hallazgos": [],
+  "sin_limites": false
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 5,
+    "cita": "Reactive Hazard Yes",
+    "texto": "Yes",
+    "estado": "encontrado"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 5,
+    "cita": "Stability Stable under normal conditions.",
+    "texto": "Stable under normal conditions.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 6,
+    "cita": "Hazardous Reactions None under normal processing.",
+    "texto": "None under normal processing.",
+    "estado": "la ficha no informa"
+   },
+   "polimerizacion": {
+    "nombre": "Polimerización peligrosa",
+    "pagina": 6,
+    "cita": "Hazardous Polymerization Hazardous polymerization may occur. Hazardous polymerization may occur upon depletion / of inhibitor.",
+    "texto": "Hazardous polymerization may occur. Hazardous polymerization may occur upon depletion of inhibitor.",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 5,
+    "cita": "Conditions to Avoid Excess heat. Incompatible products. Keep away from open flames, hot surfaces and / sources of ignition. Temperatures above 40°C.",
+    "texto": "Excess heat. Incompatible products. Keep away from open flames, hot surfaces and sources of ignition. Temperatures above 40°C.",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 5,
+    "cita": "Incompatible Materials Acids, Halogenated compounds, Copper alloys, Strong oxidizing agents",
+    "texto": "Acids, Halogenated compounds, Copper alloys, Strong oxidizing agents",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 5,
+    "cita": "Hazardous Decomposition ProductsCarbon monoxide (CO), Carbon dioxide (CO2)",
+    "texto": "Carbon monoxide (CO), Carbon dioxide (CO2)",
+    "estado": "encontrado"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Styrene». Sustancia en el Excel de fichas: «Estireno (diluyente de resina poliéster de anclaje)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase H por revisar: «Suspected of damaging the unborn child». Candidatos: H361 (0.75)"
+  },
+  {
+   "paso": "Clasificación",
+   "texto": "Clase declarada sin frase H en la ficha: «Reproductive Toxicity», categoría 2"
+  }
+ ],
+ "proteccion": {
+  "texto": "Engineering Measures Ensure adequate ventilation, especially in confined areas. Ensure that eyewash stations and safety showers are close to the workstation location. Use explosion-proof electrical/ventilating/lighting equipment. Personal Protective Equipment Eye/face Protection Tight sealing safety goggles. Face protection shield. Skin and body protection Wear appropriate protective gloves and clothing to prevent skin exposure. Respiratory Protection No protective equipment is needed under normal use conditions. Recommended Filter type: Organic gases and vapours filter. Type A. Brown. conforming to EN14387. Hygiene Measures Handle in accordance with good industrial hygiene and safety practice.",
+  "pagina": 4,
+  "estado": "encontrado",
+  "cortado": false,
+  "cita": "Engineering Measures Ensure adequate ventilation, especially in confined areas. Ensure that eyewash stations"
+ }
+}

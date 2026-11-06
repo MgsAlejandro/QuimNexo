@@ -1,0 +1,586 @@
+{
+ "archivo": "17_Etilenglicol_107-21-1.pdf",
+ "lector": "pdfplumber",
+ "paginas": 9,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "SECTION 1. IDENTIFICATION OF THE SUBSTANCE/MIXTURE AND OF THE",
+   "pagina": 1,
+   "lineas": 16,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "SECTION 2. HAZARD IDENTIFICATION",
+   "pagina": 1,
+   "lineas": 23,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "SECTION 3. COMPOSITION/INFORMATION ON INGREDIENTS",
+   "pagina": 2,
+   "lineas": 2,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "SECTION 4. FIRST AID MEASURES",
+   "pagina": 2,
+   "lineas": 17,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "SECTION 5. FIRE-FIGHTING MEASURES",
+   "pagina": 2,
+   "lineas": 10,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "SECTION 6. ACCIDENTAL RELEASE MEASURES",
+   "pagina": 3,
+   "lineas": 7,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "SECTION 7. HANDLING AND STORAGE",
+   "pagina": 3,
+   "lineas": 8,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "SECTION 8. EXPOSURE CONTROLS/PERSONAL PROTECTION",
+   "pagina": 3,
+   "lineas": 48,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "SECTION 9. PHYSICAL AND CHEMICAL PROPERTIES",
+   "pagina": 4,
+   "lineas": 29,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "SECTION 10. STABILITY AND REACTIVITY",
+   "pagina": 5,
+   "lineas": 6,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "SECTION 11. TOXICOLOGICAL INFORMATION",
+   "pagina": 5,
+   "lineas": 24,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "SECTION 12. ECOLOGICAL INFORMATION",
+   "pagina": 6,
+   "lineas": 30,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "SECTION 13. DISPOSAL CONSIDERATIONS",
+   "pagina": 6,
+   "lineas": 7,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "SECTION 14. TRANSPORT INFORMATION",
+   "pagina": 7,
+   "lineas": 4,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "SECTION 15. REGULATORY INFORMATION",
+   "pagina": 7,
+   "lineas": 40,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "SECTION 16. OTHER INFORMATION",
+   "pagina": 8,
+   "lineas": 44,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Ethanediol",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Product Description: Ethanediol"
+  },
+  "cas_seccion1": {
+   "valor": "107-21-1",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "CAS No 107-21-1"
+  },
+  "cas_seccion3": [
+   {
+    "valor": "107-21-1",
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Ethylene glycol 107-21-1 <=100"
+   }
+  ],
+  "proveedor": {
+   "nombre": "Thermo Fisher Scientific India Pvt. Ltd",
+   "direccion": "403-404, B-wing, Delphi, Hiranandani Business Park, Powai, Mumbai 4000076, INDIA",
+   "telefono": null,
+   "estado": "por revisar",
+   "pagina": 1,
+   "cita": "Supplier Thermo Fisher Scientific India Pvt. Ltd / 403-404, B-wing, Delphi, / Hiranandani Business Park, / Powai, Mumbai 4000076, INDIA / Recommended Use Laboratory chemicals.",
+   "notas": [
+    "falta teléfono"
+   ]
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "107-21-1",
+  "ficha": [
+   "107-21-1"
+  ],
+  "veredicto": "coincide",
+  "excel": "Etilenglicol (anticongelante/refrigerante de motores diésel)",
+  "cas_excel": "107-21-1",
+  "hallazgos": [
+   "Producto de la ficha: «Ethanediol». Sustancia en el Excel de fichas: «Etilenglicol (anticongelante/refrigerante de motores diésel)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "código",
+   "P": "código"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H302",
+    "codigo_base": "H302",
+    "texto_ficha": "Harmful if swallowed",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "H302 - Harmful if swallowed",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H373",
+    "codigo_base": "H373",
+    "texto_ficha": "May cause damage to organs through prolonged or repeated exposure",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "H373 - May cause damage to organs through prolonged or repeated exposure",
+    "apariciones": 1
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P260",
+    "codigo_base": "P260",
+    "texto_ficha": "Do not breathe dust/fume/gas/mist/vapors/spray",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P260 - Do not breathe dust/fume/gas/mist/vapors/spray",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P264",
+    "codigo_base": "P264",
+    "texto_ficha": "Wash face, hands and any exposed skin thoroughly after handling",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P264 - Wash face, hands and any exposed skin thoroughly after handling",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P270",
+    "codigo_base": "P270",
+    "texto_ficha": "Do not eat, drink or smoke when using this product",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P270 - Do not eat, drink or smoke when using this product",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P301+P312",
+    "codigo_base": "P301+P312",
+    "texto_ficha": "IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P301 + P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P314",
+    "codigo_base": "P314",
+    "texto_ficha": "Get medical advice/attention if you feel unwell",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P314 - Get medical advice/attention if you feel unwell",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P330",
+    "codigo_base": "P330",
+    "texto_ficha": "Rinse mouth",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P330 - Rinse mouth",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P403",
+    "codigo_base": "P403",
+    "texto_ficha": "Store in a well-ventilated place",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P403 - Store in a well-ventilated place",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P501",
+    "codigo_base": "P501",
+    "texto_ficha": "Dispose of contents/ container to an approved waste disposal plant",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P501 - Dispose of contents/ container to an approved waste disposal plant",
+    "apariciones": 1
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Acute Oral Toxicity",
+    "categoria": "4",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Acute Oral Toxicity Category 4",
+    "codigos_compatibles": [
+     "H302"
+    ]
+   },
+   {
+    "clase": "Specific target organ toxicity - (repeated exposure)",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Specific target organ toxicity - (repeated exposure) Category 2",
+    "codigos_compatibles": [
+     "H373"
+    ]
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Atención",
+   "literal": "Warning",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Signal Word Warning"
+  },
+  "categoria_por_frase_H": {
+   "H302": [
+    "4"
+   ],
+   "H373": [
+    "2"
+   ]
+  }
+ },
+ "limites": {
+  "limites": [
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "Vietnam OEL",
+    "tipo": "TWA",
+    "valor": "10",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "Vietnam OEL: TWA: 10 mg/m3 TWA: 60 mg/m3 STEL: 20 mg/m3 STEL: 125 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "Vietnam OEL",
+    "tipo": "TWA",
+    "valor": "60",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "Vietnam OEL: TWA: 10 mg/m3 TWA: 60 mg/m3 STEL: 20 mg/m3 STEL: 125 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "Vietnam OEL",
+    "tipo": "STEL",
+    "valor": "20",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "Vietnam OEL: TWA: 10 mg/m3 TWA: 60 mg/m3 STEL: 20 mg/m3 STEL: 125 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "Vietnam OEL",
+    "tipo": "STEL",
+    "valor": "125",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "Vietnam OEL: TWA: 10 mg/m3 TWA: 60 mg/m3 STEL: 20 mg/m3 STEL: 125 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "Ceiling",
+    "valor": "125",
+    "unidad": "mg/m3",
+    "nota": "(Vacated)",
+    "cita": "OSHA PEL: (Vacated) Ceiling: 50 ppm (Vacated) Ceiling: 125 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "The United Kingdom",
+    "tipo": "STEL",
+    "valor": "40",
+    "unidad": "ppm",
+    "nota": "15 min",
+    "cita": "The United Kingdom: STEL: 40 ppm 15 min STEL: 104 mg/m3 15 min STEL: 30 mg/m3 15 min TWA: 10 mg/m3 8 hr TWA: 20 ppm 8 hr TWA: 52 mg/m3 8 hr Skin",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "The United Kingdom",
+    "tipo": "STEL",
+    "valor": "104",
+    "unidad": "mg/m3",
+    "nota": "15 min",
+    "cita": "The United Kingdom: STEL: 40 ppm 15 min STEL: 104 mg/m3 15 min STEL: 30 mg/m3 15 min TWA: 10 mg/m3 8 hr TWA: 20 ppm 8 hr TWA: 52 mg/m3 8 hr Skin",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "The United Kingdom",
+    "tipo": "STEL",
+    "valor": "30",
+    "unidad": "mg/m3",
+    "nota": "15 min",
+    "cita": "The United Kingdom: STEL: 40 ppm 15 min STEL: 104 mg/m3 15 min STEL: 30 mg/m3 15 min TWA: 10 mg/m3 8 hr TWA: 20 ppm 8 hr TWA: 52 mg/m3 8 hr Skin",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "The United Kingdom",
+    "tipo": "TWA",
+    "valor": "10",
+    "unidad": "mg/m3",
+    "nota": "8 hr",
+    "cita": "The United Kingdom: STEL: 40 ppm 15 min STEL: 104 mg/m3 15 min STEL: 30 mg/m3 15 min TWA: 10 mg/m3 8 hr TWA: 20 ppm 8 hr TWA: 52 mg/m3 8 hr Skin",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "The United Kingdom",
+    "tipo": "TWA",
+    "valor": "20",
+    "unidad": "ppm",
+    "nota": "8 hr",
+    "cita": "The United Kingdom: STEL: 40 ppm 15 min STEL: 104 mg/m3 15 min STEL: 30 mg/m3 15 min TWA: 10 mg/m3 8 hr TWA: 20 ppm 8 hr TWA: 52 mg/m3 8 hr Skin",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "The United Kingdom",
+    "tipo": "TWA",
+    "valor": "52",
+    "unidad": "mg/m3",
+    "nota": "8 hr Skin",
+    "cita": "The United Kingdom: STEL: 40 ppm 15 min STEL: 104 mg/m3 15 min STEL: 30 mg/m3 15 min TWA: 10 mg/m3 8 hr TWA: 20 ppm 8 hr TWA: 52 mg/m3 8 hr Skin",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "European Union",
+    "tipo": "TWA",
+    "valor": "20",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "European Union: TWA: 20 ppm (8h) TWA: 52 mg/m3 (8h) STEL: 40 ppm (15min) STEL: 104 mg/m3 (15min) Skin",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "European Union",
+    "tipo": "TWA",
+    "valor": "52",
+    "unidad": "mg/m3",
+    "nota": "(8h)",
+    "cita": "European Union: TWA: 20 ppm (8h) TWA: 52 mg/m3 (8h) STEL: 40 ppm (15min) STEL: 104 mg/m3 (15min) Skin",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "European Union",
+    "tipo": "STEL",
+    "valor": "40",
+    "unidad": "ppm",
+    "nota": "(8h)",
+    "cita": "European Union: TWA: 20 ppm (8h) TWA: 52 mg/m3 (8h) STEL: 40 ppm (15min) STEL: 104 mg/m3 (15min) Skin",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Ethylene glycol",
+    "cas": null,
+    "organismo": "European Union",
+    "tipo": "STEL",
+    "valor": "104",
+    "unidad": "mg/m3",
+    "nota": "(15min) (15min) Skin",
+    "cita": "European Union: TWA: 20 ppm (8h) TWA: 52 mg/m3 (8h) STEL: 40 ppm (15min) STEL: 104 mg/m3 (15min) Skin",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   }
+  ],
+  "hallazgos": [],
+  "sin_limites": false
+ },
+ "reacciones": {
+  "apartados": {
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 5,
+    "cita": "Stability Hygroscopic.",
+    "texto": "Hygroscopic.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 5,
+    "cita": "Hazardous Reactions None under normal processing.",
+    "texto": "None under normal processing.",
+    "estado": "la ficha no informa"
+   },
+   "polimerizacion": {
+    "nombre": "Polimerización peligrosa",
+    "pagina": 5,
+    "cita": "Hazardous Polymerization Hazardous polymerization does not occur.",
+    "texto": "Hazardous polymerization does not occur.",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 5,
+    "cita": "Conditions to Avoid Incompatible products. Excess heat. Exposure to moist air or water.",
+    "texto": "Incompatible products. Excess heat. Exposure to moist air or water.",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 5,
+    "cita": "Materials to avoid Strong oxidizing agents. Strong acids. Strong bases. Aldehydes.",
+    "texto": "Strong oxidizing agents. Strong acids. Strong bases. Aldehydes.",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 5,
+    "cita": "Hazardous Decomposition ProductsCarbon monoxide (CO). Carbon dioxide (CO2).",
+    "texto": "Carbon monoxide (CO). Carbon dioxide (CO2).",
+    "estado": "encontrado"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Proveedor por revisar; falta teléfono"
+  },
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Ethanediol». Sustancia en el Excel de fichas: «Etilenglicol (anticongelante/refrigerante de motores diésel)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  }
+ ],
+ "proteccion": {
+  "texto": "Exposure Controls Engineering Measures Ensure adequate ventilation, especially in confined areas. Ensure that eyewash stations and safety showers are close to the workstation location. Wherever possible, engineering control measures such as the isolation or enclosure of the process, the introduction of process or equipment changes to minimise release or contact, and the use of properly designed ventilation systems, should be adopted to control hazardous materials at source. Personal protective equipment Eye Protection Wear safety glasses with side shields (or goggles) (European standard - EN 166) Hand Protection Protective gloves Glove material Breakthrough time Glove thickness EU standard Glove comments Viton (R) See manufacturers - EN 374 (minimum requirement) recommendations Inspect gloves before use. Please observe the instructions regarding permeability and breakthrough time which are provided by the supplier of the gloves. (Refer to manufacturer/supplier for information) Ensure gloves are suitable for the task: Chemical compatability, Dexterity, Operational conditions, User susceptibility, e.g. sensitisation effects, also take into consideration the specific local conditions under which the product is used, such as the danger of cuts, abrasion. Remove gloves with care avoiding skin contamination. Skin and body protection Long sleeved clothing Respiratory Protection When workers are facing concentrations above the exposure limit they must use appropriate certified respirators. To protect the wearer, respiratory protective equipment must be the correct fit and be used and maintained properly Large scale/emergency use Use a NIOSH/MSHA or European Standard EN 136 approved respirator if exposure limits are exceeded or if irritation or other symptoms are experienced Rec",
+  "pagina": 3,
+  "estado": "encontrado",
+  "cortado": true,
+  "cita": "Exposure Controls"
+ }
+}

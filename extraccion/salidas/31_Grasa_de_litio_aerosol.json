@@ -1,0 +1,768 @@
+{
+ "archivo": "31_Grasa_de_litio_aerosol.pdf",
+ "lector": "pdfplumber",
+ "paginas": 15,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 1: Identificación del producto",
+   "pagina": 1,
+   "lineas": 15,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 2: Identificación de peligros",
+   "pagina": 1,
+   "lineas": 56,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 3: Composición/información de los componentes",
+   "pagina": 3,
+   "lineas": 9,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 4: Primeros auxilios",
+   "pagina": 3,
+   "lineas": 14,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 5: Medidas contra incendios",
+   "pagina": 3,
+   "lineas": 7,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 6 : Medidas en caso de derrame o fuga accidental",
+   "pagina": 4,
+   "lineas": 21,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 7: Manejo y almacenamiento",
+   "pagina": 4,
+   "lineas": 10,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 8: Controles de exposición/protección personal",
+   "pagina": 4,
+   "lineas": 45,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 9: Propiedades físicas y químicas",
+   "pagina": 5,
+   "lineas": 35,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 10: Estabilidad y reactividad",
+   "pagina": 6,
+   "lineas": 15,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 11. Información toxicológica",
+   "pagina": 6,
+   "lineas": 217,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 12: Información ecotoxicológica",
+   "pagina": 10,
+   "lineas": 126,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 13: Información sobre la eliminación de los productos",
+   "pagina": 13,
+   "lineas": 8,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 14: Información de transporte",
+   "pagina": 13,
+   "lineas": 31,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 15: Información reglamentaria",
+   "pagina": 14,
+   "lineas": 18,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 16: Otra información",
+   "pagina": 14,
+   "lineas": 15,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Grasa blanca de 3M™, 08875",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "1.1. Identificación del producto / Grasa blanca de 3M™, 08875"
+  },
+  "cas_seccion1": {
+   "valor": null,
+   "estado": "no encontrado",
+   "pagina": null,
+   "cita": null
+  },
+  "cas_seccion3": [
+   {
+    "valor": "64742-52-5",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "Destilados de petróleo nafténico, 64742-52-5 15 - 40"
+   },
+   {
+    "valor": "67-64-1",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "Acetona 67-64-1 10 - 30"
+   },
+   {
+    "valor": "142-82-5",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "Heptano 142-82-5 10 - 30"
+   },
+   {
+    "valor": "75-28-5",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "Isobutano 75-28-5 10 - 30"
+   },
+   {
+    "valor": "7620-77-1",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "12-hidroxiestearato de litio 7620-77-1 1 - 5"
+   },
+   {
+    "valor": "1314-13-2",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "Óxido de Zinc 1314-13-2 < 2"
+   }
+  ],
+  "proveedor": {
+   "nombre": "3M Colombia",
+   "direccion": "Avenida El Dorado No 75-93, Bogata",
+   "telefono": "57+1+4161666",
+   "estado": "por revisar",
+   "pagina": 1,
+   "cita": "1.3. Detalles del proveedor / Dirección: 3M Colombia, Avenida El Dorado No 75-93, Bogata / Teléfono: 57+1+4161666 / Correo EHSColombia@mmm.com / electrónico: / Sitio web: www.3M.com.co",
+   "notas": [
+    "nombre y dirección venían en una sola línea; se separaron en el primer guion o coma: revisar"
+   ]
+  }
+ },
+ "cotejo_cas": {
+  "archivo": null,
+  "ficha": [
+   "64742-52-5",
+   "67-64-1",
+   "142-82-5",
+   "75-28-5",
+   "7620-77-1",
+   "1314-13-2"
+  ],
+  "veredicto": "el nombre del archivo no trae CAS",
+  "excel": "Grasa de litio (espesante: 12-hidroxiestearato de litio)",
+  "cas_excel": "7620-77-1",
+  "hallazgos": [
+   "Producto de la ficha: «Grasa blanca de 3M™, 08875». Sustancia en el Excel de fichas: «Grasa de litio (espesante: 12-hidroxiestearato de litio)». Verificar que la ficha corresponda al producto que se usa en la mina.",
+   "La sección 3 declara otros componentes: 64742-52-5 («Destilados de petróleo nafténico, 64742-52-5 15 - 40»); 67-64-1 («Acetona 67-64-1 10 - 30»); 142-82-5 («Heptano 142-82-5 10 - 30»); 75-28-5 («Isobutano 75-28-5 10 - 30»); 7620-77-1 («12-hidroxiestearato de litio 7620-77-1 1 - 5»); 1314-13-2 («Óxido de Zinc 1314-13-2 < 2»)"
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "código",
+   "P": "código"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H222",
+    "codigo_base": "H222",
+    "texto_ficha": "Aerosol extremadamente inflamable.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H222 Aerosol extremadamente inflamable.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H229",
+    "codigo_base": "H229",
+    "texto_ficha": "Recipiente presurizado: puede estallar si se calienta.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H229 Recipiente presurizado: puede estallar si se calienta.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H316",
+    "codigo_base": "H316",
+    "texto_ficha": "Causa irritación cutánea leve.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H316 Causa irritación cutánea leve.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H319",
+    "codigo_base": "H319",
+    "texto_ficha": "Causa irritación ocular grave.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H319 Causa irritación ocular grave.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H336",
+    "codigo_base": "H336",
+    "texto_ficha": "Puede causar somnolencia o mareo.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H336 Puede causar somnolencia o mareo.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H304",
+    "codigo_base": "H304",
+    "texto_ficha": "Puede ser fatal si es ingerido y entra a las vías respiratorias",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H304 Puede ser fatal si es ingerido y entra a las vías respiratorias",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H370",
+    "codigo_base": "H370",
+    "texto_ficha": "Causa daños en órganos: Sistema Cardiovascular",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H370 Causa daños en órganos: Sistema Cardiovascular",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H401",
+    "codigo_base": "H401",
+    "texto_ficha": "Tóxico para la vida acuática.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H401 Tóxico para la vida acuática.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H412",
+    "codigo_base": "H412",
+    "texto_ficha": "Nocivo para la vida acúatica con efectos terminales",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H412 Nocivo para la vida acúatica con efectos terminales",
+    "apariciones": 1
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P101",
+    "codigo_base": "P101",
+    "texto_ficha": "Si es necesario consultar al médico, tenga a la mano el recipiente o la etiqueta del producto.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P101 Si es necesario consultar al médico, tenga a la mano el recipiente o la etiqueta del",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P102",
+    "codigo_base": "P102",
+    "texto_ficha": "Mantener fuera del alcance de los niños.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P102 Mantener fuera del alcance de los niños.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P210",
+    "codigo_base": "P210",
+    "texto_ficha": "Mantener alejado del calor, superficies calientes, chispas llamas al descubierto y otras fuentes de ignición. No fumar.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P210 Mantener alejado del calor, superficies calientes, chispas llamas al descubierto y otras",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P211",
+    "codigo_base": "P211",
+    "texto_ficha": "No rocíe sobre una flama abierta u otra fuente de ignición.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P211 No rocíe sobre una flama abierta u otra fuente de ignición.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P251",
+    "codigo_base": "P251",
+    "texto_ficha": "No perfore o queme, incluso después de usarlo.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P251 No perfore o queme, incluso después de usarlo.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P260",
+    "codigo_base": "P260",
+    "texto_ficha": "No respire el polvo, humo, gas, neblina, vapores, aerosol.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P260 No respire el polvo, humo, gas, neblina, vapores, aerosol.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P271",
+    "codigo_base": "P271",
+    "texto_ficha": "Sólo use en exteriores o en un área bien ventilada.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P271 Sólo use en exteriores o en un área bien ventilada.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P301+P310",
+    "codigo_base": "P301+P310",
+    "texto_ficha": "EN CASO DE DEGLUCIÓN: llame al CENTRO DE INFORMACIÓN TOXICOLÓGICA o al médico.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P301 + P310 EN CASO DE DEGLUCIÓN: llame al CENTRO DE INFORMACIÓN",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P305+P351+P338",
+    "codigo_base": "P305+P351+P338",
+    "texto_ficha": "EN CASO DE CONTACTO CON LOS OJOS: enjuague con cuidado con agua durante varios minutos; retire los lentes de contacto si están presentes y es fácil hacerlo; siga enjuagando.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P305 + P351 + P338 EN CASO DE CONTACTO CON LOS OJOS: enjuague con cuidado con agua",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P308+P311",
+    "codigo_base": "P308+P311",
+    "texto_ficha": "Si se expuso o tiene dudas: llame al CENTRO DE INFORMACIÓN TOXICOLÓGICA o al médico.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P308 + P311 Si se expuso o tiene dudas: llame al CENTRO DE INFORMACIÓN",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P331",
+    "codigo_base": "P331",
+    "texto_ficha": "NO induzca el vómito.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P331 NO induzca el vómito.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P332+P313",
+    "codigo_base": "P332+P313",
+    "texto_ficha": "Si se presenta irritación cutánea: consiga atención médica.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P332 + P313 Si se presenta irritación cutánea: consiga atención médica.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P405",
+    "codigo_base": "P405",
+    "texto_ficha": "Almacenar en sitios cerrados",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P405 Almacenar en sitios cerrados",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P410+P412",
+    "codigo_base": "P410+P412",
+    "texto_ficha": "Proteja de la luz solar. No lo exponga a temperaturas que excedan 50 °C/122 °F.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P410 + P412 Proteja de la luz solar. No lo exponga a temperaturas que excedan 50 °C/122 °F.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P501",
+    "codigo_base": "P501",
+    "texto_ficha": "Deseche el contenido/recipiente de conformidad con las regulaciones locales, regionales, nacionales, internacionales correspondientes.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P501 Deseche el contenido/recipiente de conformidad con las regulaciones locales,",
+    "apariciones": 1
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Aerosol inflamable",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Aerosol inflamable: Categoría 1.",
+    "codigos_compatibles": [
+     "H222",
+     "H229"
+    ]
+   },
+   {
+    "clase": "Corrosión/irritación cutánea",
+    "categoria": "3",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Corrosión/irritación cutánea: Categoría 3.",
+    "codigos_compatibles": [
+     "H316"
+    ]
+   },
+   {
+    "clase": "Irritación/daño grave ocular",
+    "categoria": "2A",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Irritación/daño grave ocular: Categoría 2A.",
+    "codigos_compatibles": [
+     "H319"
+    ]
+   },
+   {
+    "clase": "Toxicidad en órgano específico (exposición única)",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Toxicidad en órgano específico (exposición única): Categoría 1.",
+    "codigos_compatibles": [
+     "H370"
+    ]
+   },
+   {
+    "clase": "Toxicidad específica en determinados órganos (exposición única)",
+    "categoria": "3",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Toxicidad específica en determinados órganos (exposición única): Categoría 3.",
+    "codigos_compatibles": [
+     "H336"
+    ]
+   },
+   {
+    "clase": "Peligro de aspiración",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Peligro de aspiración: Categoría 1.",
+    "codigos_compatibles": [
+     "H304"
+    ]
+   },
+   {
+    "clase": "Toxicidad acuática aguda",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Toxicidad acuática aguda: Categoría 2.",
+    "codigos_compatibles": []
+   },
+   {
+    "clase": "Toxicidad acuática crónica",
+    "categoria": "3",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Toxicidad acuática crónica: Categoría 3.",
+    "codigos_compatibles": []
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Peligro",
+   "literal": "Peligro",
+   "estado": "encontrado",
+   "pagina": 2,
+   "cita": "Palabra de advertencia / Peligro"
+  },
+  "categoria_por_frase_H": {
+   "H222": [
+    "1"
+   ],
+   "H229": [
+    "1"
+   ],
+   "H316": [
+    "3"
+   ],
+   "H319": [
+    "2A"
+   ],
+   "H336": [
+    "3"
+   ],
+   "H304": [
+    "1"
+   ],
+   "H370": [
+    "1"
+   ],
+   "H401": [],
+   "H412": []
+  }
+ },
+ "limites": {
+  "limites": [
+   {
+    "agente": "Óxido de Zinc",
+    "cas": "1314-13-2",
+    "organismo": "ACGIH",
+    "tipo": "TWA",
+    "valor": "2",
+    "unidad": "mg/m3",
+    "nota": "(fracción respirable)",
+    "cita": "Óxido de Zinc | 1314-13-2 | ACGIH | TWA (fracción respirable): 2 mg/m3; STEL (fracción respirable): 10 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Óxido de Zinc",
+    "cas": "1314-13-2",
+    "organismo": "ACGIH",
+    "tipo": "STEL",
+    "valor": "10",
+    "unidad": "mg/m3",
+    "nota": "(fracción respirable)",
+    "cita": "Óxido de Zinc | 1314-13-2 | ACGIH | TWA (fracción respirable): 2 mg/m3; STEL (fracción respirable): 10 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Heptano",
+    "cas": "142-82-5",
+    "organismo": "ACGIH",
+    "tipo": "TWA",
+    "valor": "400",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Heptano | 142-82-5 | ACGIH | TWA: 400 ppm; STEL: 500 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Heptano",
+    "cas": "142-82-5",
+    "organismo": "ACGIH",
+    "tipo": "STEL",
+    "valor": "500",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Heptano | 142-82-5 | ACGIH | TWA: 400 ppm; STEL: 500 ppm",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Acetona",
+    "cas": "67-64-1",
+    "organismo": "ACGIH",
+    "tipo": "TWA",
+    "valor": "250",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Acetona | 67-64-1 | ACGIH | TWA: 250 ppm;STEL:500 ppm | A4: Sin clasificación como carcinógeno humano",
+    "pagina": 5,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Acetona",
+    "cas": "67-64-1",
+    "organismo": "ACGIH",
+    "tipo": "STEL",
+    "valor": "500",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Acetona | 67-64-1 | ACGIH | TWA: 250 ppm;STEL:500 ppm | A4: Sin clasificación como carcinógeno humano",
+    "pagina": 5,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Isobutano",
+    "cas": "75-28-5",
+    "organismo": "ACGIH",
+    "tipo": "STEL",
+    "valor": "1000",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Isobutano | 75-28-5 | ACGIH | STEL: 1000 ppm",
+    "pagina": 5,
+    "origen": "tabla",
+    "estado": "encontrado"
+   }
+  ],
+  "hallazgos": [],
+  "sin_limites": false
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 6,
+    "cita": "10.1. Reactividad / Este material puede reaccionar con ciertos agentes en determinadas condiciones; remítase a los encabezados restantes en esta / sección.",
+    "texto": "Este material puede reaccionar con ciertos agentes en determinadas condiciones; remítase a los encabezados restantes en esta sección.",
+    "estado": "encontrado"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 6,
+    "cita": "10.2. Estabilidad química / Estable.",
+    "texto": "Estable.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 6,
+    "cita": "10.3. Posibilidad de reacciones peligrosas / No se producirá polimerización peligrosa.",
+    "texto": "No se producirá polimerización peligrosa.",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 6,
+    "cita": "10.4. Condiciones que deben evitarse / Calor",
+    "texto": "Calor",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 6,
+    "cita": "10.5. Materiales incompatibles / No determinado",
+    "texto": "No determinado",
+    "estado": "la ficha no informa"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 6,
+    "cita": "10.6 Productos de descomposición peligrosos. / Sustancia Condiciones / Monóxido de carbono Oxidación, calor o reacción / Dióxido de carbono Oxidación, calor o reacción",
+    "texto": "Sustancia Condiciones Monóxido de carbono Oxidación, calor o reacción Dióxido de carbono Oxidación, calor o reacción",
+    "estado": "encontrado"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Proveedor por revisar; nombre y dirección venían en una sola línea; se separaron en el primer guion o coma: revisar"
+  },
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Grasa blanca de 3M™, 08875». Sustancia en el Excel de fichas: «Grasa de litio (espesante: 12-hidroxiestearato de litio)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Identificación",
+   "texto": "La sección 3 declara otros componentes: 64742-52-5 («Destilados de petróleo nafténico, 64742-52-5 15 - 40»); 67-64-1 («Acetona 67-64-1 10 - 30»); 142-82-5 («Heptano 142-82-5 10 - 30»); 75-28-5 («Isobutano 75-28-5 10 - 30»); 7620-77-1 («12-hidroxiestearato de litio 7620-77-1 1 - 5»); 1314-13-2 («Óxido de Zinc 1314-13-2 < 2»)"
+  },
+  {
+   "paso": "Clasificación",
+   "texto": "Clase declarada sin frase H en la ficha: «Toxicidad acuática aguda», categoría 2"
+  },
+  {
+   "paso": "Clasificación",
+   "texto": "Clase declarada sin frase H en la ficha: «Toxicidad acuática crónica», categoría 3"
+  },
+  {
+   "paso": "Clasificación",
+   "texto": "Frase H401 sin clase declarada compatible: no se pudo leer su categoría"
+  },
+  {
+   "paso": "Clasificación",
+   "texto": "Frase H412 sin clase declarada compatible: no se pudo leer su categoría"
+  },
+  {
+   "paso": "Reacciones",
+   "texto": "Materiales incompatibles: la ficha no informa («No determinado»)."
+  }
+ ],
+ "proteccion": {
+  "texto": "8.2. Controles de exposición 8.2.1. Controles de ingeniería. No permanezca en el área en donde pueda estar disminuida la cantidad de oxígeno disponible. Use ventilación general por dilución o ventilación de escape local para controlar las exposiciones aéreas correspondientes por debajo de los límites de exposición y controle el polvo, humo, gas, neblina, vapores y aerosol. Si la ventilación no es adecuada, use equipo de protección respiratoria. 8.2.2. Equipos de protección individual (EPIs) Protección de ojos/cara Con base en los resultados de una evaluación de exposición, seleccione y use protección en ojos/cara para evitar el contacto. Se recomienda el uso de las siguientes protecciones de ojos/cara: Antiparras con ventilación indirecta Protección cutánea/mano Con base en los resultados de una evaluación de exposición, seleccione y use guantes o ropa de protección aprobada por las normas locales correspondientes para evitar el contacto con la piel. La selección debe basarse tanto en los factores de uso como en los niveles de exposición, concentración de la sustancia o mezcla, frecuencia y duración, cambios físicos, como temperaturas extremas, y otras condiciones de uso. Consulte al fabricante de guantes o ropa de protección para seleccionar los guantes/ropa compatibles apropiados. Se recomiendan guantes elaborados con los siguientes materiales: Fluoroelastómero Caucho de nitrilo Protección respiratoria Puede necesitarse una evaluación de exposición para decidir si requiere un respirador. Si es necesario un respirador, use respiradores como parte del programa de protección respiratoria completa. Con base en los resultados de la evaluación de exposición, seleccione de los siguientes tipos de respiradores para reducir la exposición por inhalación: Respirador con suminist",
+  "pagina": 5,
+  "estado": "encontrado",
+  "cortado": true,
+  "cita": "8.2. Controles de exposición"
+ }
+}

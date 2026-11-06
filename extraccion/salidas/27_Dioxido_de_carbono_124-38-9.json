@@ -1,0 +1,457 @@
+{
+ "archivo": "27_Dioxido_de_carbono_124-38-9.pdf",
+ "lector": "pdfplumber",
+ "paginas": 8,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "1. Identification",
+   "pagina": 1,
+   "lineas": 17,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "2. Hazard(s) identification",
+   "pagina": 1,
+   "lineas": 9,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "3. Composition/information on Ingredients",
+   "pagina": 2,
+   "lineas": 2,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "4. First-aid measures",
+   "pagina": 2,
+   "lineas": 10,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "5. Fire-fighting measures",
+   "pagina": 2,
+   "lineas": 20,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "6. Accidental release measures",
+   "pagina": 2,
+   "lineas": 6,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "7. Handling and Storage",
+   "pagina": 3,
+   "lineas": 5,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "8. Exposure controls / personal protection",
+   "pagina": 3,
+   "lineas": 23,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "9. Physical and chemical properties",
+   "pagina": 3,
+   "lineas": 27,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "10. Stability and reactivity",
+   "pagina": 4,
+   "lineas": 7,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "11. Toxicological information",
+   "pagina": 4,
+   "lineas": 28,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "12. Ecological information",
+   "pagina": 5,
+   "lineas": 5,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "13. Disposal considerations",
+   "pagina": 5,
+   "lineas": 3,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "14. Transport information",
+   "pagina": 5,
+   "lineas": 16,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "15. Regulatory Information",
+   "pagina": 6,
+   "lineas": 67,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "16. Other Information",
+   "pagina": 7,
+   "lineas": 16,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Carbon dioxide",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Product Name Carbon dioxide"
+  },
+  "cas_seccion1": {
+   "valor": "124-38-9",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "CAS No 124-38-9"
+  },
+  "cas_seccion3": [
+   {
+    "valor": "124-38-9",
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Carbon dioxide 124-38-9 <=100"
+   }
+  ],
+  "proveedor": {
+   "nombre": "Thermo Fisher Scientific Chemicals, Inc.",
+   "direccion": "30 Bond Street, Ward Hill, MA 01835-8099",
+   "telefono": "800-343-0660",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Details of the supplier of the safety data sheet / Company / Thermo Fisher Scientific Chemicals, Inc. / 30 Bond Street / Ward Hill, MA 01835-8099 / Tel: 800-343-0660 / Fax: 800-322-4757",
+   "notas": []
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "124-38-9",
+  "ficha": [
+   "124-38-9"
+  ],
+  "veredicto": "coincide",
+  "excel": "Dióxido de carbono (gas protector de soldadura MIG)",
+  "cas_excel": "124-38-9",
+  "hallazgos": [
+   "Producto de la ficha: «Carbon dioxide». Sustancia en el Excel de fichas: «Dióxido de carbono (gas protector de soldadura MIG)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "ninguna",
+   "P": "ninguna"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [
+   {
+    "texto_ficha": "This product is not considered hazardous by the US OSHA Hazard Communication Standard 2024 (29 CFR 1910.1200).",
+    "pagina": 1
+   },
+   {
+    "texto_ficha": "None required",
+    "pagina": 1
+   }
+  ],
+  "H": [],
+  "P": []
+ },
+ "clasificacion": {
+  "clases": [],
+  "palabra_advertencia": {
+   "valor": null,
+   "literal": null,
+   "estado": "no encontrado",
+   "pagina": null,
+   "cita": null
+  },
+  "categoria_por_frase_H": {}
+ },
+ "limites": {
+  "limites": [
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "ACGIH TLV",
+    "tipo": "TWA",
+    "valor": "5000",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "ACGIH TLV: TWA: 5000 ppm STEL: 30000 ppm",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "ACGIH TLV",
+    "tipo": "STEL",
+    "valor": "30000",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "ACGIH TLV: TWA: 5000 ppm STEL: 30000 ppm",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "TWA",
+    "valor": "10000",
+    "unidad": "ppm",
+    "nota": "(Vacated)",
+    "cita": "OSHA PEL: (Vacated) TWA: 10000 ppm (Vacated) TWA: 18000 mg/m3 (Vacated) STEL: 30000 ppm (Vacated) STEL: 54000 mg/m3 TWA: 5000 ppm TWA: 9000 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "STEL",
+    "valor": "30000",
+    "unidad": "ppm",
+    "nota": "(Vacated)",
+    "cita": "OSHA PEL: (Vacated) TWA: 10000 ppm (Vacated) TWA: 18000 mg/m3 (Vacated) STEL: 30000 ppm (Vacated) STEL: 54000 mg/m3 TWA: 5000 ppm TWA: 9000 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "STEL",
+    "valor": "54000",
+    "unidad": "mg/m3",
+    "nota": "(Vacated)",
+    "cita": "OSHA PEL: (Vacated) TWA: 10000 ppm (Vacated) TWA: 18000 mg/m3 (Vacated) STEL: 30000 ppm (Vacated) STEL: 54000 mg/m3 TWA: 5000 ppm TWA: 9000 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "TWA",
+    "valor": "5000",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "OSHA PEL: (Vacated) TWA: 10000 ppm (Vacated) TWA: 18000 mg/m3 (Vacated) STEL: 30000 ppm (Vacated) STEL: 54000 mg/m3 TWA: 5000 ppm TWA: 9000 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "TWA",
+    "valor": "9000",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "OSHA PEL: (Vacated) TWA: 10000 ppm (Vacated) TWA: 18000 mg/m3 (Vacated) STEL: 30000 ppm (Vacated) STEL: 54000 mg/m3 TWA: 5000 ppm TWA: 9000 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "IDLH",
+    "valor": "40000",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "NIOSH: IDLH: 40000 ppm REL = 5000 ppm (TWA) REL = 9000 mg/m3 (TWA) STEL: 30000 ppm STEL: 54000 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "REL",
+    "valor": "5000",
+    "unidad": "ppm",
+    "nota": "(TWA)",
+    "cita": "NIOSH: IDLH: 40000 ppm REL = 5000 ppm (TWA) REL = 9000 mg/m3 (TWA) STEL: 30000 ppm STEL: 54000 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "REL",
+    "valor": "9000",
+    "unidad": "mg/m3",
+    "nota": "(TWA)",
+    "cita": "NIOSH: IDLH: 40000 ppm REL = 5000 ppm (TWA) REL = 9000 mg/m3 (TWA) STEL: 30000 ppm STEL: 54000 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "STEL",
+    "valor": "30000",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "NIOSH: IDLH: 40000 ppm REL = 5000 ppm (TWA) REL = 9000 mg/m3 (TWA) STEL: 30000 ppm STEL: 54000 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "STEL",
+    "valor": "54000",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "NIOSH: IDLH: 40000 ppm REL = 5000 ppm (TWA) REL = 9000 mg/m3 (TWA) STEL: 30000 ppm STEL: 54000 mg/m3",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "Mexico OEL (TWA)",
+    "tipo": "TWA",
+    "valor": "5000",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Mexico OEL (TWA): TWA: 5000 ppm STEL: 30000 ppm",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Carbon dioxide",
+    "cas": null,
+    "organismo": "Mexico OEL (TWA)",
+    "tipo": "STEL",
+    "valor": "30000",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Mexico OEL (TWA): TWA: 5000 ppm STEL: 30000 ppm",
+    "pagina": 3,
+    "origen": "tabla",
+    "estado": "encontrado"
+   }
+  ],
+  "hallazgos": [],
+  "sin_limites": false
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 4,
+    "cita": "Reactive Hazard None known, based on information available",
+    "texto": "None known, based on information available",
+    "estado": "la ficha no informa"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 4,
+    "cita": "Stability Not in tight containers.",
+    "texto": "Not in tight containers.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 4,
+    "cita": "Hazardous Reactions None under normal processing.",
+    "texto": "None under normal processing.",
+    "estado": "la ficha no informa"
+   },
+   "polimerizacion": {
+    "nombre": "Polimerización peligrosa",
+    "pagina": 4,
+    "cita": "Hazardous Polymerization Hazardous polymerization does not occur.",
+    "texto": "Hazardous polymerization does not occur.",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 4,
+    "cita": "Conditions to Avoid Incompatible products.",
+    "texto": "Incompatible products.",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 4,
+    "cita": "Incompatible Materials Metals",
+    "texto": "Metals",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 4,
+    "cita": "Hazardous Decomposition ProductsCarbon monoxide (CO), Carbon dioxide (CO2)",
+    "texto": "Carbon monoxide (CO), Carbon dioxide (CO2)",
+    "estado": "encontrado"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Carbon dioxide». Sustancia en el Excel de fichas: «Dióxido de carbono (gas protector de soldadura MIG)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Frases",
+   "texto": "La ficha declara: «This product is not considered hazardous by the US OSHA Hazard Communication Standard 2024 (29 CFR 1910.1200).»"
+  },
+  {
+   "paso": "Frases",
+   "texto": "La ficha declara: «None required»"
+  }
+ ],
+ "proteccion": {
+  "texto": "Engineering Measures None under normal use conditions. Personal Protective Equipment Eye/face Protection Wear appropriate protective eyeglasses or chemical safety goggles as described by OSHA's eye and face protection regulations in 29 CFR 1910.133 or European Standard EN166. Skin and body protection Wear appropriate protective gloves and clothing to prevent skin exposure. Respiratory Protection No protective equipment is needed under normal use conditions. Recommended Filter type: Particle filter. Hygiene Measures Handle in accordance with good industrial hygiene and safety practice.",
+  "pagina": 3,
+  "estado": "encontrado",
+  "cortado": false,
+  "cita": "Engineering Measures None under normal use conditions."
+ }
+}

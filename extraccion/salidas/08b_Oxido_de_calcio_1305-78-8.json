@@ -1,0 +1,706 @@
+{
+ "archivo": "08b_Oxido_de_calcio_1305-78-8.pdf",
+ "lector": "pdfplumber",
+ "paginas": 9,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "1. Identification",
+   "pagina": 1,
+   "lineas": 16,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "2. Hazard(s) identification",
+   "pagina": 1,
+   "lineas": 38,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "3. Composition/information on Ingredients",
+   "pagina": 2,
+   "lineas": 2,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "4. First-aid measures",
+   "pagina": 2,
+   "lineas": 12,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "5. Fire-fighting measures",
+   "pagina": 3,
+   "lineas": 20,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "6. Accidental release measures",
+   "pagina": 3,
+   "lineas": 5,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "7. Handling and Storage",
+   "pagina": 3,
+   "lineas": 7,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "8. Exposure controls / personal protection",
+   "pagina": 3,
+   "lineas": 21,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "9. Physical and chemical properties",
+   "pagina": 4,
+   "lineas": 29,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "10. Stability and reactivity",
+   "pagina": 5,
+   "lineas": 9,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "11. Toxicological information",
+   "pagina": 5,
+   "lineas": 32,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "12. Ecological information",
+   "pagina": 6,
+   "lineas": 8,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "13. Disposal considerations",
+   "pagina": 6,
+   "lineas": 3,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "14. Transport information",
+   "pagina": 6,
+   "lineas": 16,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "15. Regulatory Information",
+   "pagina": 7,
+   "lineas": 67,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "16. Other Information",
+   "pagina": 8,
+   "lineas": 17,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Calcium oxide",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Product Name Calcium oxide"
+  },
+  "cas_seccion1": {
+   "valor": "1305-78-8",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "CAS No 1305-78-8"
+  },
+  "cas_seccion3": [
+   {
+    "valor": "1305-78-8",
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Calcium oxide 1305-78-8 >95"
+   }
+  ],
+  "proveedor": {
+   "nombre": "Fisher Scientific Company",
+   "direccion": "One Reagent Lane, Fair Lawn, NJ 07410",
+   "telefono": "(201) 796-7100",
+   "estado": "por revisar",
+   "pagina": 1,
+   "cita": "Details of the supplier of the safety data sheet / Company / Fisher Scientific Company Acros Organics / One Reagent Lane One Reagent Lane / Fair Lawn, NJ 07410 Fair Lawn, NJ 07410 / Tel: (201) 796-7100",
+   "notas": [
+    "la ficha trae dos empresas en columnas; se tomó la izquierda. La otra: Acros Organics, One Reagent Lane, Fair Lawn, NJ 07410"
+   ]
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "1305-78-8",
+  "ficha": [
+   "1305-78-8"
+  ],
+  "veredicto": "coincide",
+  "excel": "Cemento Portland / óxido de calcio (cal)",
+  "cas_excel": "1305-78-8",
+  "hallazgos": [
+   "Producto de la ficha: «Calcium oxide». Sustancia en el Excel de fichas: «Cemento Portland / óxido de calcio (cal)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "texto",
+   "P": "texto"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H315",
+    "texto_ficha": "Causes skin irritation",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 1,
+    "cita": "Causes skin irritation",
+    "texto_sga": "Causes skin irritation",
+    "candidatos": [
+     [
+      "H315",
+      1.0
+     ],
+     [
+      "H316",
+      0.75
+     ],
+     [
+      "H320",
+      0.67
+     ]
+    ]
+   },
+   {
+    "codigo": "H318",
+    "texto_ficha": "Causes serious eye damage",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Causes serious eye damage",
+    "texto_sga": "Causes serious eye damage",
+    "candidatos": [
+     [
+      "H318",
+      1.0
+     ],
+     [
+      "H319",
+      0.75
+     ]
+    ]
+   },
+   {
+    "codigo": "H335",
+    "texto_ficha": "May cause respiratory irritation",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "May cause respiratory irritation",
+    "texto_sga": "May cause respiratory irritation",
+    "candidatos": [
+     [
+      "H335",
+      1.0
+     ]
+    ]
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P264",
+    "texto_ficha": "Wash face, hands and any exposed skin thoroughly after handling",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Wash face, hands and any exposed skin thoroughly after handling",
+    "texto_sga": "Wash ... thoroughly after handling.",
+    "candidatos": [
+     [
+      "P264",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P280",
+    "texto_ficha": "Wear protective gloves/protective clothing/eye protection/face protection",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Wear protective gloves/protective clothing/eye protection/face protection",
+    "texto_sga": "Wear protective gloves/protective clothing/eye protection/face protection.",
+    "candidatos": [
+     [
+      "P280",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P261",
+    "texto_ficha": "Avoid breathing dust/fume/gas/mist/vapors/spray",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Avoid breathing dust/fume/gas/mist/vapors/spray",
+    "texto_sga": "Avoid breathing dust/fume/gas/mist/vapours/spray.",
+    "candidatos": [
+     [
+      "P261",
+      1.0
+     ],
+     [
+      "P260",
+      0.67
+     ]
+    ]
+   },
+   {
+    "codigo": "P271",
+    "texto_ficha": "Use only outdoors or in a well-ventilated area",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Use only outdoors or in a well-ventilated area",
+    "texto_sga": "Use only outdoors or in a well-ventilated area.",
+    "candidatos": [
+     [
+      "P271",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P304+P340",
+    "texto_ficha": "IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+    "texto_sga": "IF INHALED: Remove person to fresh air and keep comfortable for breathing.",
+    "candidatos": [
+     [
+      "P304+P340",
+      1.0
+     ],
+     [
+      "P340",
+      0.83
+     ]
+    ]
+   },
+   {
+    "codigo": "P312",
+    "texto_ficha": "Call a POISON CENTER or doctor if you feel unwell",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Call a POISON CENTER or doctor if you feel unwell",
+    "texto_sga": "Call a POISON CENTER/doctor/…if you feel unwell.",
+    "candidatos": [
+     [
+      "P312",
+      1.0
+     ],
+     [
+      "P311",
+      1.0
+     ],
+     [
+      "P310",
+      0.83
+     ]
+    ]
+   },
+   {
+    "codigo": "P302+P352",
+    "texto_ficha": "IF ON SKIN: Wash with plenty of soap and water",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "IF ON SKIN: Wash with plenty of soap and water",
+    "texto_sga": "IF ON SKIN: Wash with plenty of water/...",
+    "candidatos": [
+     [
+      "P302+P352",
+      1.0
+     ],
+     [
+      "P352",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P332+P313",
+    "texto_ficha": "If skin irritation occurs: Get medical advice/attention",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "If skin irritation occurs: Get medical advice/attention",
+    "texto_sga": "If skin irritation occurs: Get medical advice/attention.",
+    "candidatos": [
+     [
+      "P332+P313",
+      1.0
+     ],
+     [
+      "P333+P313",
+      0.8
+     ],
+     [
+      "P337+P313",
+      0.75
+     ]
+    ]
+   },
+   {
+    "codigo": "P362",
+    "texto_ficha": "Take off contaminated clothing",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Take off contaminated clothing",
+    "texto_sga": "Take off contaminated clothing.",
+    "candidatos": [
+     [
+      "P362",
+      1.0
+     ],
+     [
+      "P361",
+      0.67
+     ]
+    ]
+   },
+   {
+    "codigo": "P305+P351+P338",
+    "texto_ficha": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing",
+    "texto_sga": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing.",
+    "candidatos": [
+     [
+      "P305+P351+P338",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P310",
+    "texto_ficha": "Immediately call a POISON CENTER or doctor/physician",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Immediately call a POISON CENTER or doctor/physician",
+    "texto_sga": "Immediately call a POISON CENTER/doctor/…",
+    "candidatos": [
+     [
+      "P310",
+      1.0
+     ],
+     [
+      "P311",
+      1.0
+     ],
+     [
+      "P301+P310",
+      0.75
+     ]
+    ]
+   },
+   {
+    "codigo": "P403+P233",
+    "texto_ficha": "Store in a well-ventilated place. Keep container tightly closed",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Store in a well-ventilated place. Keep container tightly closed",
+    "texto_sga": "Store in a well-ventilated place. Keep container tightly closed.",
+    "candidatos": [
+     [
+      "P403+P233",
+      1.0
+     ],
+     [
+      "P403+P235",
+      0.7
+     ],
+     [
+      "P410+P403",
+      0.6
+     ]
+    ]
+   },
+   {
+    "codigo": "P405",
+    "texto_ficha": "Store locked up",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Store locked up",
+    "texto_sga": "Store locked up.",
+    "candidatos": [
+     [
+      "P405",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P501",
+    "texto_ficha": "Dispose of contents/container to an approved waste disposal plant",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Dispose of contents/container to an approved waste disposal plant",
+    "texto_sga": "Dispose of contents/container to ...",
+    "candidatos": [
+     [
+      "P501",
+      1.0
+     ]
+    ]
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Skin Corrosion/Irritation",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Skin Corrosion/Irritation Category 2",
+    "codigos_compatibles": [
+     "H315"
+    ]
+   },
+   {
+    "clase": "Serious Eye Damage/Eye Irritation",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Serious Eye Damage/Eye Irritation Category 1",
+    "codigos_compatibles": [
+     "H318"
+    ]
+   },
+   {
+    "clase": "Specific target organ toxicity (single exposure)",
+    "categoria": "3",
+    "detalle": "Target Organs - Respiratory system.",
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Specific target organ toxicity (single exposure) Category 3 / Target Organs - Respiratory system.",
+    "codigos_compatibles": [
+     "H335"
+    ]
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Peligro",
+   "literal": "Danger",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Signal Word / Danger"
+  },
+  "categoria_por_frase_H": {
+   "H315": [
+    "2"
+   ],
+   "H318": [
+    "1"
+   ],
+   "H335": [
+    "3"
+   ]
+  }
+ },
+ "limites": {
+  "limites": [
+   {
+    "agente": "Calcium oxide",
+    "cas": null,
+    "organismo": "ACGIH TLV",
+    "tipo": "TWA",
+    "valor": "2",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "ACGIH TLV: TWA: 2 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Calcium oxide",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "TWA",
+    "valor": "5",
+    "unidad": "mg/m3",
+    "nota": "(Vacated)",
+    "cita": "OSHA PEL: (Vacated) TWA: 5 mg/m3 TWA: 5 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Calcium oxide",
+    "cas": null,
+    "organismo": "OSHA PEL",
+    "tipo": "TWA",
+    "valor": "5",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "OSHA PEL: (Vacated) TWA: 5 mg/m3 TWA: 5 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Calcium oxide",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "IDLH",
+    "valor": "25",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "NIOSH: IDLH: 25 mg/m3 REL = 2 mg/m3 (TWA)",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Calcium oxide",
+    "cas": null,
+    "organismo": "NIOSH",
+    "tipo": "REL",
+    "valor": "2",
+    "unidad": "mg/m3",
+    "nota": "(TWA)",
+    "cita": "NIOSH: IDLH: 25 mg/m3 REL = 2 mg/m3 (TWA)",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Calcium oxide",
+    "cas": null,
+    "organismo": "Mexico OEL (TWA)",
+    "tipo": "TWA",
+    "valor": "2",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "Mexico OEL (TWA): TWA: 2 mg/m3",
+    "pagina": 4,
+    "origen": "tabla",
+    "estado": "encontrado"
+   }
+  ],
+  "hallazgos": [],
+  "sin_limites": false
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 5,
+    "cita": "Reactive Hazard Yes",
+    "texto": "Yes",
+    "estado": "encontrado"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 5,
+    "cita": "Stability Moisture sensitive. Air sensitive.",
+    "texto": "Moisture sensitive. Air sensitive.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 5,
+    "cita": "Hazardous Reactions None under normal processing.",
+    "texto": "None under normal processing.",
+    "estado": "la ficha no informa"
+   },
+   "polimerizacion": {
+    "nombre": "Polimerización peligrosa",
+    "pagina": 5,
+    "cita": "Hazardous Polymerization Hazardous polymerization does not occur.",
+    "texto": "Hazardous polymerization does not occur.",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 5,
+    "cita": "Conditions to Avoid Avoid dust formation. Exposure to air. Incompatible products. Exposure to moist air or / water.",
+    "texto": "Avoid dust formation. Exposure to air. Incompatible products. Exposure to moist air or water.",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 5,
+    "cita": "Incompatible Materials Acids, Strong oxidizing agents, Halogens, Fluorine, Hydrogen fluoride, Carbon dioxide / (CO2), Alcohols, Water",
+    "texto": "Acids, Strong oxidizing agents, Halogens, Fluorine, Hydrogen fluoride, Carbon dioxide (CO2), Alcohols, Water",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 5,
+    "cita": "Hazardous Decomposition ProductsNone known",
+    "texto": "None known",
+    "estado": "la ficha no informa"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Proveedor por revisar; la ficha trae dos empresas en columnas; se tomó la izquierda. La otra: Acros Organics, One Reagent Lane, Fair Lawn, NJ 07410"
+  },
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Calcium oxide». Sustancia en el Excel de fichas: «Cemento Portland / óxido de calcio (cal)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  }
+ ],
+ "proteccion": {
+  "texto": "Engineering Measures Use only under a chemical fume hood. Ensure adequate ventilation, especially in confined areas. Ensure that eyewash stations and safety showers are close to the workstation location. Personal Protective Equipment Eye/face Protection Wear appropriate protective eyeglasses or chemical safety goggles as described by OSHA's eye and face protection regulations in 29 CFR 1910.133 or European Standard EN166. Skin and body protection Wear appropriate protective gloves and clothing to prevent skin exposure. Respiratory Protection Follow the OSHA respirator regulations found in 29 CFR 1910.134 or European Standard EN 149. Use a NIOSH/MSHA or European Standard EN 149 approved respirator if exposure limits are exceeded or if irritation or other symptoms are experienced. Recommended Filter type: Particulates filter conforming to EN 143. Hygiene Measures Handle in accordance with good industrial hygiene and safety practice.",
+  "pagina": 4,
+  "estado": "encontrado",
+  "cortado": false,
+  "cita": "Engineering Measures Use only under a chemical fume hood. Ensure adequate ventilation, especially in confined"
+ }
+}

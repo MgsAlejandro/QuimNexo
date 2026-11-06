@@ -1,0 +1,504 @@
+{
+ "archivo": "13_Fluido_hidraulico_ignifugo_68937-41-7.pdf",
+ "lector": "pdfplumber",
+ "paginas": 13,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "1. Identification",
+   "pagina": 1,
+   "lineas": 27,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "2. Hazard(s) identification",
+   "pagina": 1,
+   "lineas": 27,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "3. Composition/information on ingredients",
+   "pagina": 3,
+   "lineas": 4,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "4. First-aid measures",
+   "pagina": 3,
+   "lineas": 11,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "5. Fire-fighting measures",
+   "pagina": 3,
+   "lineas": 11,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "6. Accidental release measures",
+   "pagina": 4,
+   "lineas": 7,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "7. Handling and storage",
+   "pagina": 4,
+   "lineas": 8,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "8. Exposure controls/personal protection",
+   "pagina": 4,
+   "lineas": 25,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "9. Physical and chemical properties",
+   "pagina": 5,
+   "lineas": 36,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "10. Stability and reactivity",
+   "pagina": 6,
+   "lineas": 6,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "11. Toxicological information",
+   "pagina": 7,
+   "lineas": 28,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "12. Ecological information",
+   "pagina": 8,
+   "lineas": 17,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "13. Disposal considerations",
+   "pagina": 9,
+   "lineas": 4,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "14. Transport information",
+   "pagina": 9,
+   "lineas": 51,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "15. Regulatory information",
+   "pagina": 10,
+   "lineas": 47,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "16. Other information",
+   "pagina": 12,
+   "lineas": 45,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Isopropylated Phenol, Phosphate (Mixture)",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Product Name Isopropylated Phenol, Phosphate (Mixture)"
+  },
+  "cas_seccion1": {
+   "valor": null,
+   "estado": "no encontrado",
+   "pagina": null,
+   "cita": null
+  },
+  "cas_seccion3": [
+   {
+    "valor": "68937-41-7",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "Phenol, isopropylated, phosphate (3:1) 68937-41-7 100 *"
+   }
+  ],
+  "proveedor": {
+   "nombre": "VHG",
+   "direccion": "LGC Standards, 276 Abby Road, Manchester, NH 03103, UNITED STATES OF AMERICA",
+   "telefono": "+1 (603) 622-7660",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Details of the supplier of the safety data sheet / Supplier Address / VHG / LGC Standards / 276 Abby Road / Manchester, NH 03103 / UNITED STATES OF AMERICA / Tel :+1 (603) 622-7660 / Fax : +1 (603) 622-5180 / Email : lgcusa@lgcgroup.com / Web : lgcstandards.com / E-mail sds-request@lgcgroup.com",
+   "notas": []
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "68937-41-7",
+  "ficha": [
+   "68937-41-7"
+  ],
+  "veredicto": "coincide (solo en sección 3)",
+  "excel": "Fluido hidráulico ignífugo (éster de fosfato o poliol-éster, HFDU)",
+  "cas_excel": "68937-41-7",
+  "hallazgos": [
+   "Producto de la ficha: «Isopropylated Phenol, Phosphate (Mixture)». Sustancia en el Excel de fichas: «Fluido hidráulico ignífugo (éster de fosfato o poliol-éster, HFDU)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "texto",
+   "P": "texto"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [
+   {
+    "bloque": "H",
+    "texto_ficha": "Classified according to OSHA.",
+    "pagina": 2,
+    "cita": "Classified according to OSHA."
+   }
+  ],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H361",
+    "texto_ficha": "Suspected of damaging fertility or the unborn child",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Suspected of damaging fertility or the unborn child",
+    "texto_sga": "Suspected of damaging fertility or the unborn child (state specific effect if known)(state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)",
+    "candidatos": [
+     [
+      "H361",
+      1.0
+     ],
+     [
+      "H360",
+      0.62
+     ]
+    ]
+   },
+   {
+    "codigo": "H373",
+    "texto_ficha": "May cause damage to organs through prolonged or repeated exposure",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "May cause damage to organs through prolonged or repeated exposure",
+    "texto_sga": "May cause damage to organs ( state all organs affected, if known) through prolonged or repeated exposure (state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)",
+    "candidatos": [
+     [
+      "H373",
+      1.0
+     ],
+     [
+      "H372",
+      0.9
+     ]
+    ]
+   },
+   {
+    "codigo": "H410",
+    "texto_ficha": "Very toxic to aquatic life with long lasting effects",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Very toxic to aquatic life with long lasting effects",
+    "texto_sga": "Very toxic to aquatic life with long lasting effects",
+    "candidatos": [
+     [
+      "H410",
+      1.0
+     ],
+     [
+      "H411",
+      0.89
+     ],
+     [
+      "H412",
+      0.78
+     ]
+    ]
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P201",
+    "texto_ficha": "Obtain special instructions before use",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Obtain special instructions before use",
+    "texto_sga": "Obtain special instructions before use.",
+    "candidatos": [
+     [
+      "P201",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P202",
+    "texto_ficha": "Do not handle until all safety precautions have been read and understood",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Do not handle until all safety precautions have been read and understood",
+    "texto_sga": "Do not handle until all safety precautions have been read and understood.",
+    "candidatos": [
+     [
+      "P202",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": null,
+    "texto_ficha": "Wear protective gloves/clothing and eye/face protection",
+    "estado": "por revisar",
+    "parecido": 0.78,
+    "pagina": 2,
+    "cita": "Wear protective gloves/clothing and eye/face protection",
+    "texto_sga": null,
+    "candidatos": [
+     [
+      "P280",
+      0.78
+     ]
+    ]
+   },
+   {
+    "codigo": "P260",
+    "texto_ficha": "Do not breathe dust/fume/gas/mist/vapors/spray",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Do not breathe dust/fume/gas/mist/vapors/spray",
+    "texto_sga": "Do not breathe dust/fume/gas/mist/vapours/spray.",
+    "candidatos": [
+     [
+      "P260",
+      1.0
+     ],
+     [
+      "P261",
+      0.67
+     ]
+    ]
+   },
+   {
+    "codigo": "P308+P313",
+    "texto_ficha": "IF exposed or concerned: Get medical advice/attention",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "IF exposed or concerned: Get medical advice/attention",
+    "texto_sga": "IF exposed or concerned: Get medical advice/ attention.",
+    "candidatos": [
+     [
+      "P308+P313",
+      1.0
+     ],
+     [
+      "P337+P313",
+      0.62
+     ],
+     [
+      "P332+P313",
+      0.62
+     ]
+    ]
+   },
+   {
+    "codigo": "P405",
+    "texto_ficha": "Store locked up",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Store locked up",
+    "texto_sga": "Store locked up.",
+    "candidatos": [
+     [
+      "P405",
+      1.0
+     ]
+    ]
+   },
+   {
+    "codigo": "P501",
+    "texto_ficha": "Dispose of contents/container to an approved waste disposal plant",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Dispose of contents/container to an approved waste disposal plant",
+    "texto_sga": "Dispose of contents/container to ...",
+    "candidatos": [
+     [
+      "P501",
+      1.0
+     ]
+    ]
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Reproductive toxicity",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Reproductive toxicity Category 2",
+    "codigos_compatibles": [
+     "H361"
+    ]
+   },
+   {
+    "clase": "Specific target organ toxicity (repeated exposure)",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Specific target organ toxicity (repeated exposure) Category 2",
+    "codigos_compatibles": [
+     "H373"
+    ]
+   },
+   {
+    "clase": "Chronic aquatic toxicity",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Chronic aquatic toxicity Category 1",
+    "codigos_compatibles": []
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": null,
+   "literal": null,
+   "estado": "no encontrado",
+   "pagina": null,
+   "cita": null
+  },
+  "categoria_por_frase_H": {
+   "H361": [
+    "2"
+   ],
+   "H373": [
+    "2"
+   ],
+   "H410": []
+  }
+ },
+ "limites": {
+  "limites": [],
+  "hallazgos": [],
+  "sin_limites": true
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 6,
+    "cita": "Reactivity No information available.",
+    "texto": "No information available.",
+    "estado": "la ficha no informa"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 6,
+    "cita": "Chemical stability Stable under normal conditions.",
+    "texto": "Stable under normal conditions.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 6,
+    "cita": "Possibility of hazardous reactions None under normal processing.",
+    "texto": "None under normal processing.",
+    "estado": "la ficha no informa"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 6,
+    "cita": "Conditions to avoid None known based on information supplied.",
+    "texto": "None known based on information supplied.",
+    "estado": "la ficha no informa"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 6,
+    "cita": "Incompatible materials None known based on information supplied.",
+    "texto": "None known based on information supplied.",
+    "estado": "la ficha no informa"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 6,
+    "cita": "Hazardous decomposition products None known based on information supplied.",
+    "texto": "None known based on information supplied.",
+    "estado": "la ficha no informa"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Isopropylated Phenol, Phosphate (Mixture)». Sustancia en el Excel de fichas: «Fluido hidráulico ignífugo (éster de fosfato o poliol-éster, HFDU)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase P por revisar: «Wear protective gloves/clothing and eye/face protection». Candidatos: P280 (0.78)"
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase sin código del SGA: «Classified according to OSHA.»"
+  },
+  {
+   "paso": "Clasificación",
+   "texto": "Clase declarada sin frase H en la ficha: «Chronic aquatic toxicity», categoría 1"
+  },
+  {
+   "paso": "Clasificación",
+   "texto": "Frase H410 sin clase declarada compatible: no se pudo leer su categoría"
+  },
+  {
+   "paso": "Límites",
+   "texto": "La sección 8 no declara valores límite."
+  },
+  {
+   "paso": "Reacciones",
+   "texto": "Materiales incompatibles: la ficha no informa («None known based on information supplied.»)."
+  }
+ ],
+ "proteccion": {
+  "texto": "Appropriate engineering controls Engineering controls Showers Eyewash stations Ventilation systems. Individual protection measures, such as personal protective equipment Eye/face protection Avoid contact with eyes. Wear safety glasses with side shields (or goggles). Hand protection Wear suitable gloves. The protective gloves to be used must comply with the specifications of EC Directive 89/686/EEC and the related standard EN374. Gloves Duration of contact PPE - Glove material Glove thickness Break through time Wear protective butyl rubber gloves Skin and body protection Wear suitable protective clothing. Respiratory protection No protective equipment is needed under normal use conditions. If exposure limits are exceeded or irritation is experienced, ventilation and evacuation may be required. Environmental exposure controls Do not allow into any sewer, on the ground or into any body of water. General hygiene considerations Wash hands before breaks and immediately after handling the product. Avoid contact with skin, eyes or clothing. Do not eat, drink or smoke when using this product. Wash hands before breaks and after work. Wear suitable gloves and eye/face protection.",
+  "pagina": 5,
+  "estado": "encontrado",
+  "cortado": false,
+  "cita": "Appropriate engineering controls"
+ }
+}

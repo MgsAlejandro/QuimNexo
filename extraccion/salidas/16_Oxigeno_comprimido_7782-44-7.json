@@ -1,0 +1,397 @@
+{
+ "archivo": "16_Oxigeno_comprimido_7782-44-7.pdf",
+ "lector": "pdfplumber",
+ "paginas": 7,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "1. Identification",
+   "pagina": 1,
+   "lineas": 17,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "2. Hazard(s) identification",
+   "pagina": 1,
+   "lineas": 20,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "3. Composition/Information on Ingredients",
+   "pagina": 2,
+   "lineas": 2,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "4. First-aid measures",
+   "pagina": 2,
+   "lineas": 7,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "5. Fire-fighting measures",
+   "pagina": 2,
+   "lineas": 19,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "6. Accidental release measures",
+   "pagina": 3,
+   "lineas": 4,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "7. Handling and storage",
+   "pagina": 3,
+   "lineas": 2,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "8. Exposure controls / personal protection",
+   "pagina": 3,
+   "lineas": 12,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "9. Physical and chemical properties",
+   "pagina": 3,
+   "lineas": 23,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "10. Stability and reactivity",
+   "pagina": 4,
+   "lineas": 7,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "11. Toxicological information",
+   "pagina": 4,
+   "lineas": 22,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "12. Ecological information",
+   "pagina": 5,
+   "lineas": 5,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "13. Disposal considerations",
+   "pagina": 5,
+   "lineas": 3,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "14. Transport information",
+   "pagina": 5,
+   "lineas": 20,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "15. Regulatory information",
+   "pagina": 5,
+   "lineas": 67,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "16. Other information",
+   "pagina": 7,
+   "lineas": 13,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Oxygen, gas",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Product Name Oxygen, gas"
+  },
+  "cas_seccion1": {
+   "valor": "7782-44-7",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "CAS No 7782-44-7"
+  },
+  "cas_seccion3": [
+   {
+    "valor": "7782-44-7",
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Oxygen 7782-44-7 <=100"
+   }
+  ],
+  "proveedor": {
+   "nombre": "Thermo Fisher Scientific Chemicals, Inc.",
+   "direccion": "30 Bond Street, Ward Hill, MA 01835-8099",
+   "telefono": "800-343-0660",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Details of the supplier of the safety data sheet / Company / Thermo Fisher Scientific Chemicals, Inc. / 30 Bond Street / Ward Hill, MA 01835-8099 / Tel: 800-343-0660 / Fax: 800-322-4757",
+   "notas": []
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "7782-44-7",
+  "ficha": [
+   "7782-44-7"
+  ],
+  "veredicto": "coincide",
+  "excel": "Acetileno y oxígeno comprimido (soldadura y oxicorte)",
+  "cas_excel": "7782-44-7",
+  "hallazgos": [
+   "Producto de la ficha: «Oxygen, gas». Sustancia en el Excel de fichas: «Acetileno y oxígeno comprimido (soldadura y oxicorte)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "texto",
+   "P": "texto"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [
+   {
+    "bloque": "P",
+    "texto_ficha": "Keep reduction valves free from grease and oil",
+    "pagina": 2,
+    "cita": "Keep reduction valves free from grease and oil"
+   }
+  ],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H270",
+    "texto_ficha": "May cause or intensify fire; oxidizer",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 1,
+    "cita": "May cause or intensify fire; oxidizer",
+    "texto_sga": "May cause or intensify fire; oxidizer",
+    "candidatos": [
+     [
+      "H270",
+      1.0
+     ],
+     [
+      "H272",
+      0.67
+     ]
+    ]
+   },
+   {
+    "codigo": "H280",
+    "texto_ficha": "Contains gas under pressure; may explode if heated",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 1,
+    "cita": "Contains gas under pressure; may explode if heated",
+    "texto_sga": "Contains gas under pressure; may explode if heated",
+    "candidatos": [
+     [
+      "H280",
+      1.0
+     ]
+    ]
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P220",
+    "texto_ficha": "Keep/Store away from clothing/ other combustible materials",
+    "estado": "encontrado",
+    "parecido": 0.88,
+    "pagina": 2,
+    "cita": "Keep/Store away from clothing/ other combustible materials",
+    "texto_sga": "Keep away from clothing and other combustible materials.",
+    "candidatos": [
+     [
+      "P220",
+      0.88
+     ]
+    ]
+   },
+   {
+    "codigo": "P370+P376",
+    "texto_ficha": "Fire In case of fire: Stop leak if safe to do so",
+    "estado": "encontrado",
+    "parecido": 0.92,
+    "pagina": 2,
+    "cita": "Fire / In case of fire: Stop leak if safe to do so",
+    "texto_sga": "In case of fire: Stop leak if safe to do so.",
+    "candidatos": [
+     [
+      "P370+P376",
+      0.92
+     ],
+     [
+      "P370+P378",
+      0.71
+     ]
+    ]
+   },
+   {
+    "codigo": "P410+P403",
+    "texto_ficha": "Protect from sunlight. Store in a well-ventilated place",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Protect from sunlight. Store in a well-ventilated place",
+    "texto_sga": "Protect from sunlight. Store in a well-ventilated place.",
+    "candidatos": [
+     [
+      "P410+P403",
+      1.0
+     ],
+     [
+      "P403+P235",
+      0.67
+     ],
+     [
+      "P403",
+      0.67
+     ]
+    ]
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Oxidizing gases",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Oxidizing gases Category 1",
+    "codigos_compatibles": [
+     "H270"
+    ]
+   },
+   {
+    "clase": "Gases under pressure",
+    "categoria": "Compressed gas",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Gases under pressure Compressed gas",
+    "codigos_compatibles": [
+     "H280"
+    ]
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Peligro",
+   "literal": "Danger",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Signal Word / Danger"
+  },
+  "categoria_por_frase_H": {
+   "H270": [
+    "1"
+   ],
+   "H280": [
+    "Compressed gas"
+   ]
+  }
+ },
+ "limites": {
+  "limites": [],
+  "hallazgos": [],
+  "sin_limites": true
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 4,
+    "cita": "Reactive Hazard Yes",
+    "texto": "Yes",
+    "estado": "encontrado"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 4,
+    "cita": "Stability Stable under normal conditions.",
+    "texto": "Stable under normal conditions.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 4,
+    "cita": "Hazardous Reactions None under normal processing.",
+    "texto": "None under normal processing.",
+    "estado": "la ficha no informa"
+   },
+   "polimerizacion": {
+    "nombre": "Polimerización peligrosa",
+    "pagina": 4,
+    "cita": "Hazardous Polymerization Hazardous polymerization does not occur.",
+    "texto": "Hazardous polymerization does not occur.",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 4,
+    "cita": "Conditions to Avoid Incompatible products.",
+    "texto": "Incompatible products.",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 4,
+    "cita": "Incompatible Materials Strong oxidizing agents",
+    "texto": "Strong oxidizing agents",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 4,
+    "cita": "Hazardous Decomposition ProductsNone under normal use conditions",
+    "texto": "None under normal use conditions",
+    "estado": "la ficha no informa"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Oxygen, gas». Sustancia en el Excel de fichas: «Acetileno y oxígeno comprimido (soldadura y oxicorte)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase sin código del SGA: «Keep reduction valves free from grease and oil»"
+  },
+  {
+   "paso": "Límites",
+   "texto": "La sección 8 no declara valores límite."
+  }
+ ],
+ "proteccion": {
+  "texto": "Engineering Measures Ensure adequate ventilation, especially in confined areas. Personal Protective Equipment Eye/face Protection Wear appropriate protective eyeglasses or chemical safety goggles as described by OSHA's eye and face protection regulations in 29 CFR 1910.133 or European Standard EN166. Skin and body protection Wear appropriate protective gloves and clothing to prevent skin exposure. Respiratory Protection Follow the OSHA respirator regulations found in 29 CFR 1910.134 or European Standard EN 149. Use a NIOSH/MSHA or European Standard EN 149 approved respirator if exposure limits are exceeded or if irritation or other symptoms are experienced. Hygiene Measures Handle in accordance with good industrial hygiene and safety practice.",
+  "pagina": 3,
+  "estado": "encontrado",
+  "cortado": false,
+  "cita": "Engineering Measures Ensure adequate ventilation, especially in confined areas."
+ }
+}

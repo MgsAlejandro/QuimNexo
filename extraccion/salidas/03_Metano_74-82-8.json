@@ -1,0 +1,498 @@
+{
+ "archivo": "03_Metano_74-82-8.pdf",
+ "lector": "pdfplumber",
+ "paginas": 8,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "SECTION 1: Identification",
+   "pagina": 1,
+   "lineas": 15,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "SECTION 2: Hazard(s) identification",
+   "pagina": 1,
+   "lineas": 38,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "SECTION 3: Composition/Information on ingredients",
+   "pagina": 2,
+   "lineas": 7,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "SECTION 4: First-aid measures",
+   "pagina": 2,
+   "lineas": 18,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "SECTION 5: Fire-fighting measures",
+   "pagina": 2,
+   "lineas": 15,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "SECTION 6: Accidental release measures",
+   "pagina": 2,
+   "lineas": 21,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "SECTION 7: Handling and storage",
+   "pagina": 3,
+   "lineas": 16,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "SECTION 8: Exposure controls/personal protection",
+   "pagina": 3,
+   "lineas": 25,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "SECTION 9: Physical and chemical properties",
+   "pagina": 4,
+   "lineas": 33,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "SECTION 10: Stability and reactivity",
+   "pagina": 4,
+   "lineas": 12,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "SECTION 11: Toxicological information",
+   "pagina": 5,
+   "lineas": 22,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "SECTION 12: Ecological information",
+   "pagina": 5,
+   "lineas": 17,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "SECTION 13: Disposal considerations",
+   "pagina": 6,
+   "lineas": 8,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "SECTION 14: Transport information",
+   "pagina": 6,
+   "lineas": 35,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "SECTION 15: Regulatory information",
+   "pagina": 7,
+   "lineas": 27,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "SECTION 16: Other information",
+   "pagina": 7,
+   "lineas": 20,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Methane",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Substance name : Methane"
+  },
+  "cas_seccion1": {
+   "valor": "74-82-8",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "CAS-No. : 74-82-8"
+  },
+  "cas_seccion3": [
+   {
+    "valor": "74-82-8",
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Methane (CAS-No.) 74-82-8 > 99 Flam. Gas 1, H220"
+   }
+  ],
+  "proveedor": {
+   "nombre": "Air Liquide USA LLC and its affiliates",
+   "direccion": "9811 Katy Freeway, Suite 100, Houston, TX 77024 - USA",
+   "telefono": "1-800-819-1704",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "1.3. Supplier / Air Liquide USA LLC and its affiliates / 9811 Katy Freeway, Suite 100 / Houston, TX 77024 - USA / T 1-800-819-1704 / www.us.airliquide.com",
+   "notas": []
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "74-82-8",
+  "ficha": [
+   "74-82-8"
+  ],
+  "veredicto": "coincide",
+  "excel": "Metano (CH₄)",
+  "cas_excel": "74-82-8",
+  "hallazgos": [
+   "Producto de la ficha: «Methane». Sustancia en el Excel de fichas: «Metano (CH₄)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "código",
+   "P": "código"
+  },
+  "otras_frases": [
+   {
+    "codigo": "OSHA-H01",
+    "texto_ficha": "May displace oxygen and cause rapid suffocation",
+    "pagina": 1,
+    "cita": "OSHA-H01 - May displace oxygen and cause rapid suffocation"
+   },
+   {
+    "codigo": "CGA-HG04",
+    "texto_ficha": "May form explosive mixtures with air",
+    "pagina": 1,
+    "cita": "CGA-HG04 - May form explosive mixtures with air"
+   },
+   {
+    "codigo": "CGA-PG02",
+    "texto_ficha": "Protect from sunlight when ambient temperature exceeds 52°C/125 °F",
+    "pagina": 1,
+    "cita": "CGA-PG02 - Protect from sunlight when ambient temperature exceeds 52°C/125 °F"
+   },
+   {
+    "codigo": "CGA-PG05",
+    "texto_ficha": "Use a back flow preventive device in the piping",
+    "pagina": 1,
+    "cita": "CGA-PG05 - Use a back flow preventive device in the piping"
+   },
+   {
+    "codigo": "CGA-PG06",
+    "texto_ficha": "Close valve after each use and when empty",
+    "pagina": 1,
+    "cita": "CGA-PG06 - Close valve after each use and when empty"
+   },
+   {
+    "codigo": "CGA-PG10",
+    "texto_ficha": "Use only with equipment rated for cylinder pressure",
+    "pagina": 1,
+    "cita": "CGA-PG10 - Use only with equipment rated for cylinder pressure"
+   },
+   {
+    "codigo": "CGA-PG14",
+    "texto_ficha": "Approach suspected leak area with caution",
+    "pagina": 1,
+    "cita": "CGA-PG14 - Approach suspected leak area with caution"
+   },
+   {
+    "codigo": "CGA-PG21",
+    "texto_ficha": "Open valve slowly",
+    "pagina": 1,
+    "cita": "CGA-PG21 - Open valve slowly"
+   }
+  ],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H220",
+    "codigo_base": "H220",
+    "texto_ficha": "Extremely flammable gas",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "Hazard statements (GHS-US) : H220 - Extremely flammable gas",
+    "apariciones": 2
+   },
+   {
+    "codigo": "H280",
+    "codigo_base": "H280",
+    "texto_ficha": "Contains gas under pressure; may explode if heated",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "H280 - Contains gas under pressure; may explode if heated",
+    "apariciones": 2
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P202",
+    "codigo_base": "P202",
+    "texto_ficha": "Do not handle until all safety precautions have been read and understood.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "Precautionary statements (GHS-US) : P202 - Do not handle until all safety precautions have been read and understood.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P210",
+    "codigo_base": "P210",
+    "texto_ficha": "Keep away from heat, hot surfaces, open flames, sparks. - No smoking.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "P210 - Keep away from heat, hot surfaces, open flames, sparks. - No smoking.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P271",
+    "codigo_base": "P271",
+    "texto_ficha": "Use only outdoors or in a well-ventilated area.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "P271 - Use only outdoors or in a well-ventilated area.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P280",
+    "codigo_base": "P280",
+    "texto_ficha": "Wear eye protection, face protection, protective gloves, protective clothing.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "P280 - Wear eye protection, face protection, protective gloves, protective clothing.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P308+P313",
+    "codigo_base": "P308+P313",
+    "texto_ficha": "If exposed or concerned: Get medical advice/attention.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "P308+P313 - If exposed or concerned: Get medical advice/attention.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P377",
+    "codigo_base": "P377",
+    "texto_ficha": "Leaking gas fire: Do not extinguish, unless leak can be stopped safely.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "P377 - Leaking gas fire: Do not extinguish, unless leak can be stopped safely.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P403",
+    "codigo_base": "P403",
+    "texto_ficha": "Store in a well-ventilated place.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "P403 - Store in a well-ventilated place.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P501",
+    "codigo_base": "P501",
+    "texto_ficha": "Dispose of contents/container in accordance with local/regional/national/international regulations",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "P501 - Dispose of contents/container in accordance with local/regional/national/international",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P304+P340",
+    "codigo_base": "P304+P340",
+    "texto_ficha": "If inhaled: Remove person to fresh air and keep comfortable for breathing",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "P304+P340 - If inhaled: Remove person to fresh air and keep comfortable for breathing",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P381",
+    "codigo_base": "P381",
+    "texto_ficha": "Eliminate all ignition sources if safe to do so.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 1,
+    "cita": "P381 - Eliminate all ignition sources if safe to do so.",
+    "apariciones": 1
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Flammable gases",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": "H220",
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Flammable gases Category H220 Extremely flammable gas / 1",
+    "codigos_compatibles": [
+     "H220"
+    ]
+   },
+   {
+    "clase": "Gases under pressure",
+    "categoria": "Compressed gas",
+    "detalle": null,
+    "codigo_en_linea": "H280",
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Gases under pressure H280 Contains gas under pressure; may explode if heated / Compressed gas",
+    "codigos_compatibles": [
+     "H280"
+    ]
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Peligro",
+   "literal": "Danger",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Signal word (GHS-US) : Danger"
+  },
+  "categoria_por_frase_H": {
+   "H220": [
+    "1"
+   ],
+   "H280": [
+    "Compressed gas"
+   ]
+  }
+ },
+ "limites": {
+  "limites": [],
+  "hallazgos": [
+   {
+    "texto_ficha": "ACGIH Remark (ACGIH) Simple Asphyxiant",
+    "pagina": 3
+   }
+  ],
+  "sin_limites": true
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 4,
+    "cita": "10.1. Reactivity / None known.",
+    "texto": "None known.",
+    "estado": "la ficha no informa"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 4,
+    "cita": "10.2. Chemical stability / Stable under normal conditions.",
+    "texto": "Stable under normal conditions.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 5,
+    "cita": "10.3. Possibility of hazardous reactions / Can form explosive mixture with air.",
+    "texto": "Can form explosive mixture with air.",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 5,
+    "cita": "10.4. Conditions to avoid / None under recommended storage and handling conditions (see section 7).",
+    "texto": "None under recommended storage and handling conditions (see section 7).",
+    "estado": "la ficha no informa"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 5,
+    "cita": "10.5. Incompatible materials / Oxidizing materials. Air.",
+    "texto": "Oxidizing materials. Air.",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 5,
+    "cita": "10.6. Hazardous decomposition products / Under normal conditions of storage and use, hazardous decomposition products should not be produced.",
+    "texto": "Under normal conditions of storage and use, hazardous decomposition products should not be produced.",
+    "estado": "encontrado"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Methane». Sustancia en el Excel de fichas: «Metano (CH₄)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase de otro sistema: OSHA-H01 «May displace oxygen and cause rapid suffocation»"
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase de otro sistema: CGA-HG04 «May form explosive mixtures with air»"
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase de otro sistema: CGA-PG02 «Protect from sunlight when ambient temperature exceeds 52°C/125 °F»"
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase de otro sistema: CGA-PG05 «Use a back flow preventive device in the piping»"
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase de otro sistema: CGA-PG06 «Close valve after each use and when empty»"
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase de otro sistema: CGA-PG10 «Use only with equipment rated for cylinder pressure»"
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase de otro sistema: CGA-PG14 «Approach suspected leak area with caution»"
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase de otro sistema: CGA-PG21 «Open valve slowly»"
+  },
+  {
+   "paso": "Límites",
+   "texto": "La sección 8 dice: «ACGIH Remark (ACGIH) Simple Asphyxiant»"
+  },
+  {
+   "paso": "Límites",
+   "texto": "La sección 8 no declara valores límite."
+  }
+ ],
+ "proteccion": {
+  "texto": "8.2. Appropriate engineering controls Appropriate engineering controls : Ensure exposure is below occupational exposure limits (where available). Provide adequate general and local exhaust ventilation. Systems under pressure should be regularly checked for leakages. Oxygen detectors should be used when asphyxiating gases may be released. Consider the use of a work permit system e.g. for maintenance activities. Environmental exposure controls : Refer to local regulations for restriction of emissions to the atmosphere. See section 13 for specific methods for waste gas treatment. 8.3. Individual protection measures/Personal protective equipment Hand protection: Wear working gloves when handling gas containers. 29 CFR 1910.138: Hand protection Eye protection: Wear safety glasses with side shields. 29 CFR 1910.133: Eye and Face Protection Skin and body protection: Wear suitable protective clothing, e.g. lab coats, coveralls or flame resistant clothing. Respiratory protection: None necessary during normal and routine operations. See Sections 5 & 6. Thermal hazard protection: None necessary during normal and routine operations. Other information: Wear safety shoes while handling containers. 29 CFR 1910.136: Foot Protection.",
+  "pagina": 3,
+  "estado": "encontrado",
+  "cortado": false,
+  "cita": "8.2. Appropriate engineering controls"
+ }
+}

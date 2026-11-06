@@ -1,0 +1,38 @@
+# Configuración de la aplicación QuimNexo (Streamlit).
+
+[browser]
+# No enviar estadísticas de uso a los desarrolladores de Streamlit: nada sale del equipo.
+gatherUsageStats = false
+
+[server]
+# Atender solo en este equipo.
+address = "localhost"
+port = 8501
+# Sirve desde este mismo equipo los archivos de "clasificador SGA/static" (la fuente Inter). No sale a internet.
+enableStaticServing = true
+
+[theme]
+base = "light"
+# Paleta de la marca (la misma de presentacion.py). El verde, el ámbar y el rojo quedan para el semáforo y los avisos.
+primaryColor = "#0B6E82"
+backgroundColor = "#F4F6F8"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#17232B"
+linkColor = "#0B6E82"
+borderColor = "#C9D3DA"
+showWidgetBorder = true
+baseRadius = "0.75rem"
+buttonRadius = "full"
+# Letra: Inter, guardada en el proyecto con su licencia (clasificador SGA/static/fuentes). Tamaño base de 18 px.
+font = "Inter, 'Segoe UI', sans-serif"
+baseFontSize = 18
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fuentes/InterVariable.woff2"
+weight = "100 900"
+style = "normal"
+
+[client]
+# Sin el botón "Deploy" ni el menú de desarrollo: la herramienta es local.
+toolbarMode = "minimal"

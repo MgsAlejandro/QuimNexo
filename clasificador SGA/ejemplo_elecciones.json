@@ -1,0 +1,18 @@
+{
+ "_ayuda": "Ejemplo de lo que el usuario decide para una etiqueta, mientras no exista la interfaz. Está pensado para la ficha 14 (ácido sulfúrico). Los datos del proveedor son inventados para la prueba; no son de ninguna empresa real.",
+ "envase_litros": 20,
+ "proveedor": {
+  "nombre": "Proveedor de ejemplo S.A.S.",
+  "direccion": "Calle 1 # 2-3, Sogamoso, Boyacá",
+  "telefono": "608 000 0000"
+ },
+ "uso_interno": true,
+ "borde": "negro",
+ "consejos_p": ["P260", "P280", "P303+P361+P353", "P305+P351+P338", "P310", "P405", "P264"],
+ "textos": {
+  "P264": "Lavarse la cara, las manos y la piel expuesta cuidadosamente después de la manipulación."
+ },
+ "componentes": "Ácido sulfúrico (CAS 7664-93-9)",
+ "cantidad": "20 L",
+ "lote": "EJEMPLO-001"
+}

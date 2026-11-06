@@ -1,0 +1,424 @@
+{
+ "archivo": "29_Resina_epoxica_bisfenol_A_25068-38-6.pdf",
+ "lector": "pdfplumber",
+ "paginas": 14,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "SECTION 1: Identification of the substance/mixture and of the company/undertaking",
+   "pagina": 1,
+   "lineas": 22,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "SECTION 2: Hazards identification",
+   "pagina": 1,
+   "lineas": 51,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "SECTION 3: Composition/information on ingredients",
+   "pagina": 3,
+   "lineas": 12,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "SECTION 4: First aid measures",
+   "pagina": 3,
+   "lineas": 18,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "SECTION 5: Firefighting measures",
+   "pagina": 4,
+   "lineas": 23,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "SECTION 6: Accidental release measures",
+   "pagina": 4,
+   "lineas": 23,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "SECTION 7: Handling and storage",
+   "pagina": 5,
+   "lineas": 11,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "SECTION 8: Exposure controls/personal protection",
+   "pagina": 5,
+   "lineas": 45,
+   "marcas": [
+    "REPETIDA: otro título 8 en p. 13: «8. Exposure controls/personal protection»"
+   ]
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "SECTION 9: Physical and chemical properties",
+   "pagina": 6,
+   "lineas": 32,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "SECTION 10: Stability and reactivity",
+   "pagina": 8,
+   "lineas": 16,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "SECTION 11: Toxicological information",
+   "pagina": 8,
+   "lineas": 37,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "SECTION 12: Ecological information",
+   "pagina": 9,
+   "lineas": 39,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "SECTION 13: Disposal considerations",
+   "pagina": 10,
+   "lineas": 6,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "SECTION 14: Transport information",
+   "pagina": 10,
+   "lineas": 69,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "SECTION 15: Regulatory information",
+   "pagina": 12,
+   "lineas": 23,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "SECTION 16: Other information",
+   "pagina": 13,
+   "lineas": 62,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Araldite® 506 epoxy resin",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Product name : Araldite® 506 epoxy resin"
+  },
+  "cas_seccion1": {
+   "valor": "25068-38-6",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "CAS-No. : 25068-38-6"
+  },
+  "cas_seccion3": [
+   {
+    "valor": "25068-38-6",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "Reaction product: 25068-38-6 >= 90 - <= 100 specific"
+   }
+  ],
+  "proveedor": {
+   "nombre": "Sigma-Aldrich Inc.",
+   "direccion": "3050 SPRUCE ST, ST. LOUIS MO 63103, UNITED STATES",
+   "telefono": "+1 314 771-5765",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "1.3 Details of the supplier of the safety data sheet / Company : Sigma-Aldrich Inc. / 3050 SPRUCE ST / ST. LOUIS MO 63103 / UNITED STATES / Telephone : +1 314 771-5765 / Fax : +1 800 325-5052",
+   "notas": []
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "25068-38-6",
+  "ficha": [
+   "25068-38-6"
+  ],
+  "veredicto": "coincide",
+  "excel": "Resina epóxica (bisfenol A)",
+  "cas_excel": "25068-38-6",
+  "hallazgos": [
+   "Producto de la ficha: «Araldite® 506 epoxy resin». Sustancia en el Excel de fichas: «Resina epóxica (bisfenol A)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "código",
+   "P": "código"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H315",
+    "codigo_base": "H315",
+    "texto_ficha": "Causes skin irritation.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "Hazard statements : H315 Causes skin irritation.",
+    "apariciones": 2
+   },
+   {
+    "codigo": "H319",
+    "codigo_base": "H319",
+    "texto_ficha": "Causes serious eye irritation.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H319 Causes serious eye irritation.",
+    "apariciones": 2
+   },
+   {
+    "codigo": "H317",
+    "codigo_base": "H317",
+    "texto_ficha": "May cause an allergic skin reaction.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H317 May cause an allergic skin reaction.",
+    "apariciones": 3
+   },
+   {
+    "codigo": "H411",
+    "codigo_base": "H411",
+    "texto_ficha": "Toxic to aquatic life with long lasting effects.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H411 Toxic to aquatic life with long lasting",
+    "apariciones": 2
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P261",
+    "codigo_base": "P261",
+    "texto_ficha": "Avoid breathing mist or vapours.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P261 Avoid breathing mist or vapours.",
+    "apariciones": 2
+   },
+   {
+    "codigo": "P264",
+    "codigo_base": "P264",
+    "texto_ficha": "Wash skin thoroughly after handling.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P264 Wash skin thoroughly after handling.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P273",
+    "codigo_base": "P273",
+    "texto_ficha": "Avoid release to the environment.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P273 Avoid release to the environment.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P280",
+    "codigo_base": "P280",
+    "texto_ficha": "Wear protective gloves/ eye protection/ face protection.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P280 Wear protective gloves/ eye protection/",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P302+P352",
+    "codigo_base": "P302+P352",
+    "texto_ficha": "IF ON SKIN: Wash with plenty of water.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P302 + P352 IF ON SKIN: Wash with plenty of water.",
+    "apariciones": 2
+   },
+   {
+    "codigo": "P305+P351+P338",
+    "codigo_base": "P305+P351+P338",
+    "texto_ficha": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P305 + P351 + P338 IF IN EYES: Rinse cautiously with",
+    "apariciones": 1
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Skin irritation",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": "H315",
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Skin irritation, Category 2 H315: Causes skin irritation.",
+    "codigos_compatibles": [
+     "H315"
+    ]
+   },
+   {
+    "clase": "Eye irritation",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": "H319",
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Eye irritation, Category 2 H319: Causes serious eye irritation.",
+    "codigos_compatibles": [
+     "H319"
+    ]
+   },
+   {
+    "clase": "Skin sensitisation",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": "H317",
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Skin sensitisation, Category 1 H317: May cause an allergic skin reaction.",
+    "codigos_compatibles": [
+     "H317"
+    ]
+   },
+   {
+    "clase": "Long-term (chronic) aquatic hazard",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": "H411",
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Long-term (chronic) aquatic hazard, H411: Toxic to aquatic life with long lasting / Category 2 effects.",
+    "codigos_compatibles": [
+     "H411"
+    ]
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Atención",
+   "literal": "Warning",
+   "estado": "encontrado",
+   "pagina": 2,
+   "cita": "Signal word : Warning"
+  },
+  "categoria_por_frase_H": {
+   "H315": [
+    "2"
+   ],
+   "H319": [
+    "2"
+   ],
+   "H317": [
+    "1"
+   ],
+   "H411": [
+    "2"
+   ]
+  }
+ },
+ "limites": {
+  "limites": [],
+  "hallazgos": [],
+  "sin_limites": true
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 8,
+    "cita": "10.1 Reactivity / Forms explosive mixtures with air on intense heating. / A range from approx. 15 Kelvin below the flash point is to be rated as critical.",
+    "texto": "Forms explosive mixtures with air on intense heating. A range from approx. 15 Kelvin below the flash point is to be rated as critical.",
+    "estado": "encontrado"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 8,
+    "cita": "10.2 Chemical stability / The product is chemically stable under standard ambient conditions (room temperature) .",
+    "texto": "The product is chemically stable under standard ambient conditions (room temperature) .",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 8,
+    "cita": "10.3 Possibility of hazardous reactions / No data available",
+    "texto": "No data available",
+    "estado": "la ficha no informa"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 8,
+    "cita": "10.4 Conditions to avoid / Conditions to avoid : Strong heating.",
+    "texto": "Strong heating.",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 8,
+    "cita": "10.5 Incompatible materials / Materials to avoid : Strong oxidizing agents / acids / Amines / Bases",
+    "texto": "Strong oxidizing agents acids Amines Bases",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 8,
+    "cita": "10.6 Hazardous decomposition products / In the event of fire: see section 5",
+    "texto": "In the event of fire: see section 5",
+    "estado": "encontrado"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Secciones",
+   "texto": "Sección 8: OK; REPETIDA: otro título 8 en p. 13: «8. Exposure controls/personal protection»"
+  },
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Araldite® 506 epoxy resin». Sustancia en el Excel de fichas: «Resina epóxica (bisfenol A)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Límites",
+   "texto": "La sección 8 no declara valores límite."
+  }
+ ],
+ "proteccion": {
+  "texto": "8.2 Exposure controls Personal protective equipment Eye/face protection : Use equipment for eye protection tested and approved under appropriate government standards such as NIOSH (US) or EN 166(EU). Safety glasses Hand protection Material : Nitrile rubber Break through time : 480 min Glove thickness : 0,11 mm Protective index : Splash contact Manufacturer : Dermatril® (KCL 740 / Aldrich Z677272, Size M) Material : Nitrile rubber Break through time : 480 min Glove thickness : 0,11 mm Protective index : Full contact Manufacturer : Dermatril® (KCL 740 / Aldrich Z677272, Size M) Remarks : This recommendation applies only to the product stated in the safety data sheet, supplied by us and for the designated use. When dissolving in or mixing with other substances and under conditions deviating from those stated in EN 16523-1 please contact the supplier of CE-approved gloves (e.g. KCL GmbH, D- 36124 Eichenzell, Internet: www.kcl.de). Skin and body protection : protective clothing Respiratory protection : required when vapours/aerosols are generated. Our recommendations on filtering respiratory protection are based on the following standards: DIN EN 143, DIN 14387 and other accompanying standards relating to the used respiratory protection system. Our recommendations on filtering respiratory protection are based on the following standards: DIN EN 143, DIN 14387 and other accompanying standards relating to the used respiratory protection system. Recommended Filter : Filter type ABEK-P type: The entrepeneur has to ensure that maintenance, cleaning and testing of respiratory protective devices are carried out according to the instructions of the producer. These measures have to be properly documented. Environmental exposure controls Advice : Do not let product enter drains.",
+  "pagina": 5,
+  "estado": "encontrado",
+  "cortado": false,
+  "cita": "8.2 Exposure controls"
+ }
+}

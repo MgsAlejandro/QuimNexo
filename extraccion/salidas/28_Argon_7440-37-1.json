@@ -1,0 +1,318 @@
+{
+ "archivo": "28_Argon_7440-37-1.pdf",
+ "lector": "pdfplumber",
+ "paginas": 7,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "1. Identification",
+   "pagina": 1,
+   "lineas": 17,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "2. Hazard(s) identification",
+   "pagina": 1,
+   "lineas": 13,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "3. Composition/Information on Ingredients",
+   "pagina": 2,
+   "lineas": 2,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "4. First-aid measures",
+   "pagina": 2,
+   "lineas": 10,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "5. Fire-fighting measures",
+   "pagina": 2,
+   "lineas": 19,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "6. Accidental release measures",
+   "pagina": 3,
+   "lineas": 5,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "7. Handling and storage",
+   "pagina": 3,
+   "lineas": 3,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "8. Exposure controls / personal protection",
+   "pagina": 3,
+   "lineas": 14,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "9. Physical and chemical properties",
+   "pagina": 3,
+   "lineas": 23,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "10. Stability and reactivity",
+   "pagina": 4,
+   "lineas": 7,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "11. Toxicological information",
+   "pagina": 4,
+   "lineas": 22,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "12. Ecological information",
+   "pagina": 5,
+   "lineas": 5,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "13. Disposal considerations",
+   "pagina": 5,
+   "lineas": 3,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "14. Transport information",
+   "pagina": 5,
+   "lineas": 16,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "15. Regulatory information",
+   "pagina": 5,
+   "lineas": 67,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "16. Other information",
+   "pagina": 7,
+   "lineas": 13,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Argon, gas",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Product Name Argon, gas"
+  },
+  "cas_seccion1": {
+   "valor": "7440-37-1",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "CAS No 7440-37-1"
+  },
+  "cas_seccion3": [
+   {
+    "valor": "7440-37-1",
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Argon 7440-37-1 <=100"
+   }
+  ],
+  "proveedor": {
+   "nombre": "Thermo Fisher Scientific Chemicals, Inc.",
+   "direccion": "30 Bond Street, Ward Hill, MA 01835-8099",
+   "telefono": "800-343-0660",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Details of the supplier of the safety data sheet / Company / Thermo Fisher Scientific Chemicals, Inc. / 30 Bond Street / Ward Hill, MA 01835-8099 / Tel: 800-343-0660 / Fax: 800-322-4757",
+   "notas": []
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "7440-37-1",
+  "ficha": [
+   "7440-37-1"
+  ],
+  "veredicto": "coincide",
+  "excel": "Argón (gas protector de soldadura TIG)",
+  "cas_excel": "7440-37-1",
+  "hallazgos": [
+   "Producto de la ficha: «Argon, gas». Sustancia en el Excel de fichas: «Argón (gas protector de soldadura TIG)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "texto",
+   "P": "texto"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H280",
+    "texto_ficha": "Contains gas under pressure; may explode if heated",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 1,
+    "cita": "Contains gas under pressure; may explode if heated",
+    "texto_sga": "Contains gas under pressure; may explode if heated",
+    "candidatos": [
+     [
+      "H280",
+      1.0
+     ]
+    ]
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P410+P403",
+    "texto_ficha": "Protect from sunlight. Store in a well-ventilated place",
+    "estado": "encontrado",
+    "parecido": 1.0,
+    "pagina": 2,
+    "cita": "Protect from sunlight. Store in a well-ventilated place",
+    "texto_sga": "Protect from sunlight. Store in a well-ventilated place.",
+    "candidatos": [
+     [
+      "P410+P403",
+      1.0
+     ],
+     [
+      "P403+P235",
+      0.67
+     ],
+     [
+      "P403",
+      0.67
+     ]
+    ]
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Gases under pressure",
+    "categoria": "Compressed gas",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Gases under pressure Compressed gas",
+    "codigos_compatibles": [
+     "H280"
+    ]
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Atención",
+   "literal": "Warning",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Signal Word / Warning"
+  },
+  "categoria_por_frase_H": {
+   "H280": [
+    "Compressed gas"
+   ]
+  }
+ },
+ "limites": {
+  "limites": [],
+  "hallazgos": [],
+  "sin_limites": true
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 4,
+    "cita": "Reactive Hazard None known, based on information available",
+    "texto": "None known, based on information available",
+    "estado": "la ficha no informa"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 4,
+    "cita": "Stability Stable under normal conditions.",
+    "texto": "Stable under normal conditions.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 4,
+    "cita": "Hazardous Reactions None under normal processing.",
+    "texto": "None under normal processing.",
+    "estado": "la ficha no informa"
+   },
+   "polimerizacion": {
+    "nombre": "Polimerización peligrosa",
+    "pagina": 4,
+    "cita": "Hazardous Polymerization Hazardous polymerization does not occur.",
+    "texto": "Hazardous polymerization does not occur.",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 4,
+    "cita": "Conditions to Avoid Incompatible products.",
+    "texto": "Incompatible products.",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 4,
+    "cita": "Incompatible Materials Strong oxidizing agents",
+    "texto": "Strong oxidizing agents",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 4,
+    "cita": "Hazardous Decomposition ProductsNone under normal use conditions",
+    "texto": "None under normal use conditions",
+    "estado": "la ficha no informa"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Argon, gas». Sustancia en el Excel de fichas: «Argón (gas protector de soldadura TIG)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Límites",
+   "texto": "La sección 8 no declara valores límite."
+  }
+ ],
+ "proteccion": {
+  "texto": "Engineering Measures None under normal use conditions. Personal Protective Equipment Eye/face Protection Wear appropriate protective eyeglasses or chemical safety goggles as described by OSHA's eye and face protection regulations in 29 CFR 1910.133 or European Standard EN166. Skin and body protection Wear appropriate protective gloves and clothing to prevent skin exposure. Respiratory Protection No protective equipment is needed under normal use conditions. Recommended Filter type: Particle filter. Hygiene Measures Handle in accordance with good industrial hygiene and safety practice.",
+  "pagina": 3,
+  "estado": "encontrado",
+  "cortado": false,
+  "cita": "Engineering Measures None under normal use conditions."
+ }
+}

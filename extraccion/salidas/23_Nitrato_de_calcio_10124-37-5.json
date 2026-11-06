@@ -1,0 +1,256 @@
+{
+ "archivo": "23_Nitrato_de_calcio_10124-37-5.pdf",
+ "lector": "pypdfium2",
+ "paginas": 3,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "1. Identification of the substance/preparation and of the company/undertaking",
+   "pagina": 1,
+   "lineas": 7,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "2. Hazard identification",
+   "pagina": 1,
+   "lineas": 1,
+   "marcas": [
+    "VACÍA: bajo el título solo hay «I»"
+   ]
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "3. Composition/information on ingredients",
+   "pagina": 1,
+   "lineas": 5,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "4. First aid measures",
+   "pagina": 1,
+   "lineas": 4,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "5. Fire-fighting measures",
+   "pagina": 1,
+   "lineas": 6,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "6. Accidental release measures",
+   "pagina": 1,
+   "lineas": 2,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "7. Handling and storage",
+   "pagina": 2,
+   "lineas": 4,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "8. Exposure controls/personal protection",
+   "pagina": 2,
+   "lineas": 11,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "9. Physical and chemical properties",
+   "pagina": 2,
+   "lineas": 20,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "10. Stability and reactivity",
+   "pagina": 3,
+   "lineas": 4,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "11. Toxicological information",
+   "pagina": 3,
+   "lineas": 3,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "12. Ecological information",
+   "pagina": 3,
+   "lineas": 2,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "13. Disposal considerations",
+   "pagina": 3,
+   "lineas": 3,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "14. Transport information",
+   "pagina": 3,
+   "lineas": 3,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "15. Regulatory information",
+   "pagina": 3,
+   "lineas": 4,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "16. Other information",
+   "pagina": 3,
+   "lineas": 2,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "CALCIUM NITRATE SOLUTION APPROX.45%",
+   "estado": "por revisar",
+   "pagina": 1,
+   "cita": "CALCIUM NITRATE SOLUTION APPROX.45%",
+   "nota": "sin rótulo: es la primera línea de la sección 1"
+  },
+  "cas_seccion1": {
+   "valor": null,
+   "estado": "no encontrado",
+   "pagina": null,
+   "cita": null
+  },
+  "cas_seccion3": [
+   {
+    "valor": "10124-37-5",
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "CAS-No.: 10124-37-5"
+   }
+  ],
+  "proveedor": {
+   "nombre": null,
+   "direccion": null,
+   "telefono": null,
+   "estado": "no encontrado",
+   "pagina": null,
+   "cita": null,
+   "notas": []
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "10124-37-5",
+  "ficha": [
+   "10124-37-5"
+  ],
+  "veredicto": "coincide (solo en sección 3)",
+  "excel": "Nitrato de calcio",
+  "cas_excel": "10124-37-5",
+  "hallazgos": [
+   "Producto de la ficha: «CALCIUM NITRATE SOLUTION APPROX.45%». Sustancia en el Excel de fichas: «Nitrato de calcio». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "ninguna",
+   "P": "ninguna"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [],
+  "P": []
+ },
+ "clasificacion": {
+  "clases": [],
+  "palabra_advertencia": {
+   "valor": null,
+   "literal": null,
+   "estado": "no encontrado",
+   "pagina": null,
+   "cita": null
+  },
+  "categoria_por_frase_H": {}
+ },
+ "limites": {
+  "limites": [],
+  "hallazgos": [],
+  "sin_limites": true
+ },
+ "reacciones": {
+  "apartados": {
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 3,
+    "cita": "Conditions to be avioded: no further requirements",
+    "texto": "no further requirements",
+    "estado": "la ficha no informa"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 3,
+    "cita": "Substances to be avoided: no further informations",
+    "texto": "no further informations",
+    "estado": "la ficha no informa"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 3,
+    "cita": "Hazardous decomposition products: no information available / Other information: no further informations",
+    "texto": "no information available Other information: no further informations",
+    "estado": "la ficha no informa"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Secciones",
+   "texto": "Sección 2: OK; VACÍA: bajo el título solo hay «I»"
+  },
+  {
+   "paso": "Identificación",
+   "texto": "Nombre del producto por revisar: «CALCIUM NITRATE SOLUTION APPROX.45%»"
+  },
+  {
+   "paso": "Identificación",
+   "texto": "Proveedor no encontrado"
+  },
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «CALCIUM NITRATE SOLUTION APPROX.45%». Sustancia en el Excel de fichas: «Nitrato de calcio». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Frases",
+   "texto": "La sección 2 no trae frases H ni declara que el producto no sea peligroso."
+  },
+  {
+   "paso": "Límites",
+   "texto": "La sección 8 no declara valores límite."
+  },
+  {
+   "paso": "Reacciones",
+   "texto": "Materiales incompatibles: la ficha no informa («no further informations»)."
+  }
+ ],
+ "proteccion": {
+  "texto": "Personal protective equipment: respiratory protection: required when aerosols are generated - respiratory protection. eye protection: required - safety goggles. hand protection: required - protective clothing. body protection: required - protective clothing. industrial hygiene: immediately change contaminated clothing. Apply skin - protective barrier cream. Wash hands and face after working with substance.",
+  "pagina": 2,
+  "estado": "encontrado",
+  "cortado": false,
+  "cita": "Personal protective equipment:"
+ }
+}

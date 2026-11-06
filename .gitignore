@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Claves y configuración local (nunca subir)
+.env
+*.key
+.streamlit/secrets.toml
+
+# Datos que genera la herramienta al usarse (se guardan solo en el equipo)
+clasificador SGA/confirmaciones/*
+clasificador SGA/elecciones/*
+clasificador SGA/consultas/*
+clasificador SGA/mediciones/*
+clasificador SGA/contexto/*
+clasificador SGA/salidas/capturas_etiqueta/*
+FDS_nuevas/*
+!**/.gitkeep
+!FDS_nuevas/resultados/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

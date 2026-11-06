@@ -1,0 +1,8 @@
+streamlit
+pandas
+openpyxl
+pdfplumber
+pypdfium2
+# Opcionales: segunda pasada de la extracción con un modelo de lenguaje
+anthropic
+openai

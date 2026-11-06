@@ -1,0 +1,354 @@
+{
+ "archivo": "15_Acetileno_74-86-2.pdf",
+ "lector": "pdfplumber",
+ "paginas": 11,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 1: Producto químico e Identificación de la Empresa",
+   "pagina": 1,
+   "lineas": 29,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 2: Identificación de los peligros",
+   "pagina": 2,
+   "lineas": 34,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 3: Composición/información sobre los componentes",
+   "pagina": 3,
+   "lineas": 8,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 4: Medidas de primeros auxilios",
+   "pagina": 3,
+   "lineas": 5,
+   "marcas": []
+  },
+  "5": {
+   "estado": "TÍTULO DE OTRA SECCIÓN",
+   "titulo": "SECCIÓN 5: Composición/información sobre los componentes",
+   "pagina": 4,
+   "lineas": 31,
+   "marcas": [
+    "el título es el de la sección 3"
+   ]
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 6. Medidas contra escape accidental",
+   "pagina": 5,
+   "lineas": 13,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 7.: Manejo y almacenamiento",
+   "pagina": 5,
+   "lineas": 35,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 8: Controles de exposición/protección personal",
+   "pagina": 6,
+   "lineas": 16,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 9: Propiedades físicas y químicas",
+   "pagina": 7,
+   "lineas": 25,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 10: Reactividad y estabilidad",
+   "pagina": 8,
+   "lineas": 14,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 11: Información toxicológica",
+   "pagina": 9,
+   "lineas": 26,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 12: Información ecológica",
+   "pagina": 9,
+   "lineas": 5,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 13: Consideraciones de disposición",
+   "pagina": 10,
+   "lineas": 2,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 14: Información sobre transporte",
+   "pagina": 10,
+   "lineas": 9,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 15: Información reglamentaria",
+   "pagina": 10,
+   "lineas": 3,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "SECCIÓN 16: Información adicional",
+   "pagina": 10,
+   "lineas": 21,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Acetileno",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Nombre del producto: / Acetileno"
+  },
+  "cas_seccion1": {
+   "valor": "74-86-2",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Número CAS: / 74-86-2"
+  },
+  "cas_seccion3": [
+   {
+    "valor": "74-86-2",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "74-86-2"
+   }
+  ],
+  "proveedor": {
+   "nombre": "LINDE ECUADOR S.A.",
+   "direccion": "Quito, Av. El Inca E2-01 y Av. Amazonas. Edificio Bustamante, Guayaquil, Km. 11 1/2 Vía Daule",
+   "telefono": "(593-2) 3998900",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Fabricante / LINDE ECUADOR S.A. / Quito, Av. El Inca E2-01 y Av. Amazonas. Edificio Bustamante. Tlf.: (593-2) 3998900 / Guayaquil, Km. 11 1/2 Vía Daule Tlf.: (593-4) 3703400",
+   "notas": []
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "74-86-2",
+  "ficha": [
+   "74-86-2"
+  ],
+  "veredicto": "coincide",
+  "excel": "Acetileno y oxígeno comprimido (soldadura y oxicorte)",
+  "cas_excel": "74-86-2",
+  "hallazgos": [
+   "Producto de la ficha: «Acetileno». Sustancia en el Excel de fichas: «Acetileno y oxígeno comprimido (soldadura y oxicorte)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "código",
+   "P": "código"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H280",
+    "codigo_base": "H280",
+    "texto_ficha": "Contiene un gas a presión; peligro de explosión en caso de calentamiento",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H280 – Contiene un gas a presión; peligro de explosión en caso de calentamiento",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H220",
+    "codigo_base": "H220",
+    "texto_ficha": "Gas extremadamente inflamable",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H220 – Gas extremadamente inflamable",
+    "apariciones": 1
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P210",
+    "codigo_base": "P210",
+    "texto_ficha": "Mantener alejado de fuentes de calor, chispas, llama abierta o superficies calientes – No fumar",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P210 Mantener alejado de fuentes de calor, chispas, llama abierta o superficies calientes – No fumar",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P377",
+    "codigo_base": "P377",
+    "texto_ficha": "Fuga de gas en llamas: No apagar, salvo si la fuga puede detenerse sin peligro.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P377 Fuga de gas en llamas: No apagar, salvo si la fuga puede detenerse sin peligro.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P381",
+    "codigo_base": "P381",
+    "texto_ficha": "Eliminar todas las fuentes de ignición si no hay peligro en hacerlo.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P381 Eliminar todas las fuentes de ignición si no hay peligro en hacerlo.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P403",
+    "codigo_base": "P403",
+    "texto_ficha": "Almacenar en un lugar bien ventilado.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P403 Almacenar en un lugar bien ventilado.",
+    "apariciones": 1
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Gas a presión",
+    "categoria": "Gas disuelto",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 2,
+    "cita": "Gas a presión (Gas disuelto); Contiene gas a presión; peligro de explosión en caso de calentamiento.",
+    "codigos_compatibles": [
+     "H280"
+    ]
+   },
+   {
+    "clase": "Gas inflamable",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "por revisar",
+    "pagina": 2,
+    "cita": "Gas inflamable 1 - Gas extremadamente inflamable – Explosivo en contacto o sin contacto con el aire",
+    "codigos_compatibles": [
+     "H220"
+    ]
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Peligro",
+   "literal": "Peligro",
+   "estado": "encontrado",
+   "pagina": 2,
+   "cita": "Palabra de advertencia: / Peligro"
+  },
+  "categoria_por_frase_H": {
+   "H280": [
+    "Gas disuelto"
+   ],
+   "H220": [
+    "1"
+   ]
+  }
+ },
+ "limites": {
+  "limites": [],
+  "hallazgos": [],
+  "sin_limites": true
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 8,
+    "cita": "Reactividad",
+    "texto": null,
+    "estado": "rótulo sin texto propio"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 8,
+    "cita": "Estabilidad / El acetileno es estable a temperatura ambiente (21 °C) y presión normal (1 atm). El acetileno gaseoso / puede descomponerse violentamente a temperaturas mayores a 75 ºC) y presiones elevadas (25 bar).",
+    "texto": "El acetileno es estable a temperatura ambiente (21 °C) y presión normal (1 atm). El acetileno gaseoso puede descomponerse violentamente a temperaturas mayores a 75 ºC) y presiones elevadas (25 bar).",
+    "estado": "encontrado"
+   },
+   "polimerizacion": {
+    "nombre": "Polimerización peligrosa",
+    "pagina": 8,
+    "cita": "b) Polimerización peligrosa: Puede ocurrir en caso de calentamiento o bajo presión.",
+    "texto": "Puede ocurrir en caso de calentamiento o bajo presión.",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 8,
+    "cita": "Condiciones a evitar / Contacto con los materiales incompatibles y exposición a calor, chispas y otras fuentes de ignición. / Acumuladores expuestos a temperaturas altas o llamas directas pueden romperse o estallar.",
+    "texto": "Contacto con los materiales incompatibles y exposición a calor, chispas y otras fuentes de ignición. Acumuladores expuestos a temperaturas altas o llamas directas pueden romperse o estallar.",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 8,
+    "cita": "Incompatibilidad / Oxidantes fuertes (tales como cloro, pentafluoruro de bromo, oxígeno, difluoruro de oxígeno y trifluoruro / de nitrógeno), latón (con un contenido de cobre de más del 65%), hipoclorito cálcico, metales pesados / (cobre, plata, mercurio) y las sales de estos metales, halógenos (bromo, cloro, iodo, flúor), hidruros (tales / como hidruro sódico, hidruro de cesio), ozono, ácido perclórico; potasio.",
+    "texto": "Oxidantes fuertes (tales como cloro, pentafluoruro de bromo, oxígeno, difluoruro de oxígeno y trifluoruro de nitrógeno), latón (con un contenido de cobre de más del 65%), hipoclorito cálcico, metales pesados (cobre, plata, mercurio) y las sales de estos metales, halógenos (bromo, cloro, iodo, flúor), hidruros (tales como hidruro sódico, hidruro de cesio), ozono, ácido perclórico; potasio.",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 8,
+    "cita": "a) Productos de descomposición: Hidrógeno, Carbono",
+    "texto": "Hidrógeno, Carbono",
+    "estado": "encontrado"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Secciones",
+   "texto": "Sección 5: TÍTULO DE OTRA SECCIÓN; el título es el de la sección 3"
+  },
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Acetileno». Sustancia en el Excel de fichas: «Acetileno y oxígeno comprimido (soldadura y oxicorte)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Límites",
+   "texto": "La sección 8 no declara valores límite."
+  }
+ ],
+ "proteccion": {
+  "texto": "Protección respiratoria Usar protección respiratoria como equipo autónomo de respiración (SCBA) o máscaras con mangueras de aire o de presión directa si el nivel de oxígeno está por debajo del 19.5% o durante emergencias de un escape del gas. Los purificadores de aire no proveen suficiente protección. Vestuario protector Para el manejo de acumuladores es recomendable usar guantes industriales, verificando que éstos estén libres de aceite y grasa; gafas de seguridad, calzado con puntera de acero y ropa de algodón para prevenir la acumulación de cargas electrostáticas. Equipo contra incendios Los socorristas o personal de rescate deben contar como mínimo, con un aparato de respiración auto-contenido y protección personal completa a prueba de fuego (equipo para línea de fuego).",
+  "pagina": 7,
+  "estado": "encontrado",
+  "cortado": false,
+  "cita": "Protección respiratoria"
+ }
+}

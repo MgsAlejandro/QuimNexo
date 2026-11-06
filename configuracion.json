@@ -1,0 +1,17 @@
+{
+ "modelo_de_lenguaje": {
+  "_ayuda": "Segunda pasada opcional de la extracción. 'proveedor' puede ser anthropic u openai. La clave NO se escribe aquí: va en la variable de entorno ANTHROPIC_API_KEY u OPENAI_API_KEY.",
+  "proveedor": "anthropic",
+  "modelos": {
+   "anthropic": "claude-opus-5-5",
+   "openai": "gpt-6-astra"
+  }
+ },
+ "etiqueta": {
+  "_ayuda": "Ajustes de operación de la etiqueta. No son reglas de la norma: las reglas están en la hoja Reglas de matriz_decision_HP.xlsx.",
+  "proveedor_obligatorio": false,
+  "_proveedor_obligatorio": "Decisión del autor (10 de octubre de 2026): el proveedor puede no incluirse, porque no es necesario para la operación minera ni para el cálculo del índice. La Res. 773 de 2021, art. 7.2, y la regla R08 lo listan en el contenido mínimo; por eso, cuando se omite en la etiqueta completa, el panel de pantalla lo recuerda; en la etiqueta impresa no sale ningún aviso. La etiqueta de uso en la mina solo lleva proveedor si el usuario lo escribe. Cambie a true para exigirlo en la etiqueta completa.",
+  "tamano_minimo_de_letra_pt": 7,
+  "_tamano_minimo_de_letra_pt": "Punto de partida acordado con el autor. Las tablas no fijan un tamaño mínimo de letra."
+ }
+}

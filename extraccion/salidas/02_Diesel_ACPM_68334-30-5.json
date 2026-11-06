@@ -1,0 +1,893 @@
+{
+ "archivo": "02_Diesel_ACPM_68334-30-5.pdf",
+ "lector": "pdfplumber",
+ "paginas": 23,
+ "secciones": {
+  "1": {
+   "estado": "OK",
+   "titulo": "SECTION 1. IDENTIFICATION",
+   "pagina": 1,
+   "lineas": 16,
+   "marcas": []
+  },
+  "2": {
+   "estado": "OK",
+   "titulo": "SECTION 2. HAZARDS IDENTIFICATION",
+   "pagina": 1,
+   "lineas": 85,
+   "marcas": []
+  },
+  "3": {
+   "estado": "OK",
+   "titulo": "SECTION 3. COMPOSITION/INFORMATION ON INGREDIENTS",
+   "pagina": 3,
+   "lineas": 14,
+   "marcas": []
+  },
+  "4": {
+   "estado": "OK",
+   "titulo": "SECTION 4. FIRST-AID MEASURES",
+   "pagina": 4,
+   "lineas": 59,
+   "marcas": []
+  },
+  "5": {
+   "estado": "OK",
+   "titulo": "SECTION 5. FIRE-FIGHTING MEASURES",
+   "pagina": 5,
+   "lineas": 33,
+   "marcas": []
+  },
+  "6": {
+   "estado": "OK",
+   "titulo": "SECTION 6. ACCIDENTAL RELEASE MEASURES",
+   "pagina": 6,
+   "lineas": 56,
+   "marcas": []
+  },
+  "7": {
+   "estado": "OK",
+   "titulo": "SECTION 7. HANDLING AND STORAGE",
+   "pagina": 7,
+   "lineas": 94,
+   "marcas": []
+  },
+  "8": {
+   "estado": "OK",
+   "titulo": "SECTION 8. EXPOSURE CONTROLS/PERSONAL PROTECTION",
+   "pagina": 9,
+   "lineas": 151,
+   "marcas": []
+  },
+  "9": {
+   "estado": "OK",
+   "titulo": "SECTION 9. PHYSICAL AND CHEMICAL PROPERTIES",
+   "pagina": 13,
+   "lineas": 45,
+   "marcas": []
+  },
+  "10": {
+   "estado": "OK",
+   "titulo": "SECTION 10. STABILITY AND REACTIVITY",
+   "pagina": 14,
+   "lineas": 17,
+   "marcas": []
+  },
+  "11": {
+   "estado": "OK",
+   "titulo": "SECTION 11. TOXICOLOGICAL INFORMATION",
+   "pagina": 15,
+   "lineas": 66,
+   "marcas": []
+  },
+  "12": {
+   "estado": "OK",
+   "titulo": "SECTION 12. ECOLOGICAL INFORMATION",
+   "pagina": 17,
+   "lineas": 55,
+   "marcas": []
+  },
+  "13": {
+   "estado": "OK",
+   "titulo": "SECTION 13. DISPOSAL CONSIDERATIONS",
+   "pagina": 18,
+   "lineas": 35,
+   "marcas": []
+  },
+  "14": {
+   "estado": "OK",
+   "titulo": "SECTION 14. TRANSPORT INFORMATION",
+   "pagina": 19,
+   "lineas": 35,
+   "marcas": []
+  },
+  "15": {
+   "estado": "OK",
+   "titulo": "SECTION 15. REGULATORY INFORMATION",
+   "pagina": 20,
+   "lineas": 38,
+   "marcas": []
+  },
+  "16": {
+   "estado": "OK",
+   "titulo": "SECTION 16. OTHER INFORMATION",
+   "pagina": 21,
+   "lineas": 56,
+   "marcas": []
+  }
+ },
+ "identificacion": {
+  "nombre": {
+   "valor": "Ultra Low Sulfur Fuel Oil/ECA Marine Fuel Oil",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "P roduct name : Ultra Low Sulfur Fuel Oil/ECA Marine Fuel Oil"
+  },
+  "cas_seccion1": {
+   "valor": null,
+   "estado": "no encontrado",
+   "pagina": null,
+   "cita": null
+  },
+  "cas_seccion3": [
+   {
+    "valor": "68334-30-5",
+    "estado": "encontrado",
+    "pagina": 3,
+    "cita": "Substance name : 68334-30-5"
+   },
+   {
+    "valor": "98-82-8",
+    "estado": "encontrado",
+    "pagina": 4,
+    "cita": "Cumene 98-82-8 0 - 0.5"
+   },
+   {
+    "valor": "91-20-3",
+    "estado": "encontrado",
+    "pagina": 4,
+    "cita": "Naphthalene 91-20-3 0 - 0.5"
+   }
+  ],
+  "proveedor": {
+   "nombre": "Shell Chemical LP",
+   "direccion": "PO Box 576, HOUSTON TX 77001, USA",
+   "telefono": "1 -800-240-6737 1-855-697-4355",
+   "estado": "encontrado",
+   "pagina": 1,
+   "cita": "Manufacturer or supplier's details / Manufacturer/Supplier : Shell Chemical LP / PO Box 576 / HOUSTON TX 77001 / USA / T elephone : 1 -800-240-6737 1-855-697-4355 / T elefax :",
+   "notas": []
+  }
+ },
+ "cotejo_cas": {
+  "archivo": "68334-30-5",
+  "ficha": [
+   "68334-30-5",
+   "98-82-8",
+   "91-20-3"
+  ],
+  "veredicto": "coincide (solo en sección 3)",
+  "excel": "Combustible diésel / ACPM (fase fuel-oil del ANFO y combustible de equipos)",
+  "cas_excel": "68334-30-5",
+  "hallazgos": [
+   "Producto de la ficha: «Ultra Low Sulfur Fuel Oil/ECA Marine Fuel Oil». Sustancia en el Excel de fichas: «Combustible diésel / ACPM (fase fuel-oil del ANFO y combustible de equipos)». Verificar que la ficha corresponda al producto que se usa en la mina.",
+   "La sección 3 declara otros componentes: 98-82-8 («Cumene 98-82-8 0 - 0.5»); 91-20-3 («Naphthalene 91-20-3 0 - 0.5»)"
+  ]
+ },
+ "frases": {
+  "metodo": {
+   "H": "código",
+   "P": "código"
+  },
+  "otras_frases": [],
+  "fuera_de_seccion_2": {},
+  "sin_codigo": [],
+  "declaraciones": [],
+  "H": [
+   {
+    "codigo": "H226",
+    "codigo_base": "H226",
+    "texto_ficha": "Flammable liquid and vapour.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H226 Flammable liquid and vapour.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H304",
+    "codigo_base": "H304",
+    "texto_ficha": "May be fatal if swallowed and enters airways.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H304 May be fatal if swallowed and enters airways.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H315",
+    "codigo_base": "H315",
+    "texto_ficha": "Causes skin irritation.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H315 Causes skin irritation.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H332",
+    "codigo_base": "H332",
+    "texto_ficha": "Harmful if inhaled.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H332 Harmful if inhaled.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H351",
+    "codigo_base": "H351",
+    "texto_ficha": "Suspected of causing cancer.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H351 Suspected of causing cancer.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H373",
+    "codigo_base": "H373",
+    "texto_ficha": "May cause damage to organs (Blood, Liver, thymus) through prolonged or repeated exposure.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H373 May cause damage to organs (Blood, Liver, thymus)",
+    "apariciones": 1
+   },
+   {
+    "codigo": "H411",
+    "codigo_base": "H411",
+    "texto_ficha": "Toxic to aquatic life with long lasting effects.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "H411 Toxic to aquatic life with long lasting effects.",
+    "apariciones": 1
+   }
+  ],
+  "P": [
+   {
+    "codigo": "P201+P202",
+    "codigo_base": null,
+    "texto_ficha": "Obtain special instructions before use. Do not handle until all safety precautions have been read and understood.",
+    "estado": "por revisar",
+    "nota": "el SGA rev. 6 no lista esta combinación; sus códigos por separado sí están",
+    "pagina": 2,
+    "cita": "P201 + P202 Obtain special instructions before use. Do not",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P210",
+    "codigo_base": "P210",
+    "texto_ficha": "Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P210 Keep away from heat, hot surfaces, sparks, open flames",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P233",
+    "codigo_base": "P233",
+    "texto_ficha": "Keep container tightly closed.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P233 Keep container tightly closed.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P240",
+    "codigo_base": "P240",
+    "texto_ficha": "Ground and bond container and receiving equipment.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P240 Ground and bond container and receiving equipment.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P241",
+    "codigo_base": "P241",
+    "texto_ficha": "Use explosion-proof electrical/ ventilating/ lighting equipment.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P241 Use explosion-proof electrical/ ventilating/ lighting equip-",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P242",
+    "codigo_base": "P242",
+    "texto_ficha": "Use only non-sparking tools.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P242 Use only non-sparking tools.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P243",
+    "codigo_base": "P243",
+    "texto_ficha": "Take action to prevent static discharges.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P243 Take action to prevent static discharges.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P260",
+    "codigo_base": "P260",
+    "texto_ficha": "Do not breathe dust/ fume/ gas/ mist/ vapours/ spray.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P260 Do not breathe dust/ fume/ gas/ mist/ vapours/ spray.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P261",
+    "codigo_base": "P261",
+    "texto_ficha": "Avoid breathing dust/ fume/ gas/ mist/ vapours/ spray.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P261 Avoid breathing dust/ fume/ gas/ mist/ vapours/ spray.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P264",
+    "codigo_base": "P264",
+    "texto_ficha": "Wash hands thoroughly after handling.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P264 Wash hands thoroughly after handling.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P271",
+    "codigo_base": "P271",
+    "texto_ficha": "Use only outdoors or in a well-ventilated area.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P271 Use only outdoors or in a well-ventilated area.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P273",
+    "codigo_base": "P273",
+    "texto_ficha": "Avoid release to the environment.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P273 Avoid release to the environment.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P280",
+    "codigo_base": "P280",
+    "texto_ficha": "Wear protective gloves/ protective clothing/ eye protection/ face protection.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P280 Wear protective gloves/ protective clothing/ eye protection/",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P301+P310",
+    "codigo_base": "P301+P310",
+    "texto_ficha": "IF SWALLOWED: Immediately call a POISON CENTER/doctor.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P301 + P310 IF SWALLOWED: Immediately call a POISON",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P302+P352",
+    "codigo_base": "P302+P352",
+    "texto_ficha": "IF ON SKIN: Wash with plenty of soap and water.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P302 + P352 IF ON SKIN: Wash with plenty of soap and water.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P303+P361+P353",
+    "codigo_base": "P303+P361+P353",
+    "texto_ficha": "IF ON SKIN (or hair): Remove/ Take off immediately all contaminated clothing. Rinse skin with water/ shower.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 2,
+    "cita": "P303 + P361 + P353 IF ON SKIN (or hair): Remove/ Take off",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P304+P340+P312",
+    "codigo_base": null,
+    "texto_ficha": "IF INHALED: Remove victim to fresh air and keep at rest in a position comfortable for breathing. Call a POISON CENTER or doctor/ physician if you feel unwell.",
+    "estado": "por revisar",
+    "nota": "el SGA rev. 6 no lista esta combinación; sus códigos por separado sí están",
+    "pagina": 2,
+    "cita": "P304 + P340 + P312 IF INHALED: Remove victim to fresh air",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P308+P313",
+    "codigo_base": "P308+P313",
+    "texto_ficha": "IF exposed or concerned: Get medical advice/ attention.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P308 + P313 IF exposed or concerned: Get medical advice/",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P314",
+    "codigo_base": "P314",
+    "texto_ficha": "Get medical advice/ attention if you feel unwell.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P314 Get medical advice/ attention if you feel unwell.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P321",
+    "codigo_base": "P321",
+    "texto_ficha": "Specific treatment (see supplemental first aid instructions on this label).",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P321 Specific treatment (see supplemental first aid instructions",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P331",
+    "codigo_base": "P331",
+    "texto_ficha": "Do NOT induce vomiting.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P331 Do NOT induce vomiting.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P332+P313",
+    "codigo_base": "P332+P313",
+    "texto_ficha": "If skin irritation occurs: Get medical advice/ attention.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P332 + P313 If skin irritation occurs: Get medical advice/ atten-",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P362+P364",
+    "codigo_base": "P362+P364",
+    "texto_ficha": "Take off contaminated clothing and wash it before reuse.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P362 + P364 Take off contaminated clothing and wash it before",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P370+P378",
+    "codigo_base": "P370+P378",
+    "texto_ficha": "In case of fire: Use appropriate media to extinguish.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P370 + P378 In case of fire: Use appropriate media to extin-",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P391",
+    "codigo_base": "P391",
+    "texto_ficha": "Collect spillage.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P391 Collect spillage.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P403+P235",
+    "codigo_base": "P403+P235",
+    "texto_ficha": "Store in a well-ventilated place. Keep cool.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P403 + P235 Store in a well-ventilated place. Keep cool.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P405",
+    "codigo_base": "P405",
+    "texto_ficha": "Store locked up.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P405 Store locked up.",
+    "apariciones": 1
+   },
+   {
+    "codigo": "P501",
+    "codigo_base": "P501",
+    "texto_ficha": "Dispose of contents/ container to an approved waste disposal plant.",
+    "estado": "encontrado",
+    "nota": null,
+    "pagina": 3,
+    "cita": "P501 Dispose of contents/ container to an approved waste dis-",
+    "apariciones": 1
+   }
+  ]
+ },
+ "clasificacion": {
+  "clases": [
+   {
+    "clase": "Flammable liquids",
+    "categoria": "3",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Flammable liquids : Category 3",
+    "codigos_compatibles": [
+     "H226"
+    ]
+   },
+   {
+    "clase": "Aspiration hazard",
+    "categoria": "1",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Aspiration hazard : Category 1",
+    "codigos_compatibles": [
+     "H304"
+    ]
+   },
+   {
+    "clase": "Skin irritation",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Skin irritation : Category 2",
+    "codigos_compatibles": [
+     "H315"
+    ]
+   },
+   {
+    "clase": "Acute toxicity (Inhalation)",
+    "categoria": "4",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Acute toxicity (Inhalation) : Category 4",
+    "codigos_compatibles": [
+     "H332"
+    ]
+   },
+   {
+    "clase": "Carcinogenicity",
+    "categoria": "2",
+    "detalle": null,
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Carcinogenicity : Category 2",
+    "codigos_compatibles": [
+     "H351"
+    ]
+   },
+   {
+    "clase": "Specific target organ toxicity",
+    "categoria": "2",
+    "detalle": "- repeated exposure",
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Specific target organ toxicity : Category 2 (Blood, thymus, Liver) / - repeated exposure",
+    "codigos_compatibles": [
+     "H373"
+    ]
+   },
+   {
+    "clase": "Long-term (chronic) aquatic",
+    "categoria": "2",
+    "detalle": "hazard",
+    "codigo_en_linea": null,
+    "estado": "encontrado",
+    "pagina": 1,
+    "cita": "Long-term (chronic) aquatic : Category 2 / hazard",
+    "codigos_compatibles": [
+     "H411"
+    ]
+   }
+  ],
+  "palabra_advertencia": {
+   "valor": "Peligro",
+   "literal": "Danger",
+   "estado": "encontrado",
+   "pagina": 2,
+   "cita": "Signal word : Danger"
+  },
+  "categoria_por_frase_H": {
+   "H226": [
+    "3"
+   ],
+   "H304": [
+    "1"
+   ],
+   "H315": [
+    "2"
+   ],
+   "H332": [
+    "4"
+   ],
+   "H351": [
+    "2"
+   ],
+   "H373": [
+    "2"
+   ],
+   "H411": [
+    "2"
+   ]
+  }
+ },
+ "limites": {
+  "limites": [
+   {
+    "agente": "Fuels, diesel",
+    "cas": "68334-30-5",
+    "organismo": "ACGIH",
+    "tipo": "TWA",
+    "valor": "100",
+    "unidad": "mg/m3",
+    "nota": "(total hydrocar- bons)",
+    "cita": "Fuels, diesel | 68334-30-5 | TWA (Inhal- able fraction and vapor) | 100 mg/m3 (total hydrocar- bons) | ACGIH",
+    "pagina": 9,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Cumene",
+    "cas": "98-82-8",
+    "organismo": "NIOSH REL",
+    "tipo": "TWA",
+    "valor": "50",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Cumene | 98-82-8 | TWA | 50 ppm | NIOSH REL",
+    "pagina": 9,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Cumene",
+    "cas": "98-82-8",
+    "organismo": "OSHA Z-1",
+    "tipo": "TWA",
+    "valor": "50",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "TWA | 50 ppm 245 mg/m3 | OSHA Z-1",
+    "pagina": 10,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Cumene",
+    "cas": "98-82-8",
+    "organismo": "OSHA Z-1",
+    "tipo": "TWA",
+    "valor": "245",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "TWA | 50 ppm 245 mg/m3 | OSHA Z-1",
+    "pagina": 10,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Cumene",
+    "cas": "98-82-8",
+    "organismo": "ACGIH",
+    "tipo": "TWA",
+    "valor": "5",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "TWA | 5 ppm | ACGIH",
+    "pagina": 10,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Naphthalene",
+    "cas": "91-20-3",
+    "organismo": "NIOSH REL",
+    "tipo": "TWA",
+    "valor": "10",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "Naphthalene | 91-20-3 | TWA | 10 ppm 50 mg/m3 | NIOSH REL",
+    "pagina": 10,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Naphthalene",
+    "cas": "91-20-3",
+    "organismo": "NIOSH REL",
+    "tipo": "TWA",
+    "valor": "50",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "Naphthalene | 91-20-3 | TWA | 10 ppm 50 mg/m3 | NIOSH REL",
+    "pagina": 10,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Naphthalene",
+    "cas": "91-20-3",
+    "organismo": "NIOSH REL",
+    "tipo": "ST",
+    "valor": "15",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "ST | 15 ppm 75 mg/m3 | NIOSH REL",
+    "pagina": 10,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Naphthalene",
+    "cas": "91-20-3",
+    "organismo": "NIOSH REL",
+    "tipo": "ST",
+    "valor": "75",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "ST | 15 ppm 75 mg/m3 | NIOSH REL",
+    "pagina": 10,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Naphthalene",
+    "cas": "91-20-3",
+    "organismo": "OSHA Z-1",
+    "tipo": "TWA",
+    "valor": "10",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "TWA | 10 ppm 50 mg/m3 | OSHA Z-1",
+    "pagina": 10,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Naphthalene",
+    "cas": "91-20-3",
+    "organismo": "OSHA Z-1",
+    "tipo": "TWA",
+    "valor": "50",
+    "unidad": "mg/m3",
+    "nota": null,
+    "cita": "TWA | 10 ppm 50 mg/m3 | OSHA Z-1",
+    "pagina": 10,
+    "origen": "tabla",
+    "estado": "encontrado"
+   },
+   {
+    "agente": "Naphthalene",
+    "cas": "91-20-3",
+    "organismo": "ACGIH",
+    "tipo": "TWA",
+    "valor": "10",
+    "unidad": "ppm",
+    "nota": null,
+    "cita": "TWA | 10 ppm | ACGIH",
+    "pagina": 10,
+    "origen": "tabla",
+    "estado": "encontrado"
+   }
+  ],
+  "hallazgos": [],
+  "sin_limites": false
+ },
+ "reacciones": {
+  "apartados": {
+   "reactividad": {
+    "nombre": "Reactividad",
+    "pagina": 14,
+    "cita": "R eactivity : The product does not pose any further reactivity hazards in / a ddition to those listed in the following sub-paragraph.",
+    "texto": "The product does not pose any further reactivity hazards in a ddition to those listed in the following sub-paragraph.",
+    "estado": "encontrado"
+   },
+   "estabilidad": {
+    "nombre": "Estabilidad química",
+    "pagina": 14,
+    "cita": "C hemical stability : S table under normal use conditions.",
+    "texto": "S table under normal use conditions.",
+    "estado": "encontrado"
+   },
+   "reacciones_peligrosas": {
+    "nombre": "Posibilidad de reacciones peligrosas",
+    "pagina": 14,
+    "cita": "Possibility of hazardous reac- : No hazardous reaction is expected when handled and stored / t ions according to provisions",
+    "texto": "No hazardous reaction is expected when handled and stored t ions according to provisions",
+    "estado": "encontrado"
+   },
+   "condiciones_a_evitar": {
+    "nombre": "Condiciones que deben evitarse",
+    "pagina": 14,
+    "cita": "C onditions to avoid : A void heat, sparks, open flames and other ignition sources. / In certain circumstances product can ignite due to static elec- / t ricity.",
+    "texto": "A void heat, sparks, open flames and other ignition sources. In certain circumstances product can ignite due to static elec- t ricity.",
+    "estado": "encontrado"
+   },
+   "materiales_incompatibles": {
+    "nombre": "Materiales incompatibles",
+    "pagina": 15,
+    "cita": "Incompatible materials : S trong oxidising agents.",
+    "texto": "S trong oxidising agents.",
+    "estado": "encontrado"
+   },
+   "productos_descomposicion": {
+    "nombre": "Productos de descomposición peligrosos",
+    "pagina": 15,
+    "cita": "Hazardous decomposition : Hazardous decomposition products are not expected to form / products d uring normal storage. / Thermal decomposition is highly dependent on conditions. A / complex mixture of airborne solids, liquids and gases includ- / ing carbon monoxide, carbon dioxide, sulphur oxides and / unidentified organic compounds will be evolved when this / material undergoes combustion or thermal or oxidative degra- / d ation.",
+    "texto": "Hazardous decomposition products are not expected to form products d uring normal storage. Thermal decomposition is highly dependent on conditions. A complex mixture of airborne solids, liquids and gases includ- ing carbon monoxide, carbon dioxide, sulphur oxides and unidentified organic compounds will be evolved when this material undergoes combustion or thermal or oxidative degra- d ation.",
+    "estado": "encontrado"
+   }
+  },
+  "sin_rotulo": []
+ },
+ "hallazgos": [
+  {
+   "paso": "Identificación",
+   "texto": "Producto de la ficha: «Ultra Low Sulfur Fuel Oil/ECA Marine Fuel Oil». Sustancia en el Excel de fichas: «Combustible diésel / ACPM (fase fuel-oil del ANFO y combustible de equipos)». Verificar que la ficha corresponda al producto que se usa en la mina."
+  },
+  {
+   "paso": "Identificación",
+   "texto": "La sección 3 declara otros componentes: 98-82-8 («Cumene 98-82-8 0 - 0.5»); 91-20-3 («Naphthalene 91-20-3 0 - 0.5»)"
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase P por revisar: «Obtain special instructions before use. Do not handle until all safety precautions have been read and understood.» [P201+P202: el SGA rev. 6 no lista esta combinación; sus códigos por separado sí están]"
+  },
+  {
+   "paso": "Frases",
+   "texto": "Frase P por revisar: «IF INHALED: Remove victim to fresh air and keep at rest in a position comfortable for breathing. Call a POISON CENTER or doctor/ physician if you feel unwell.» [P304+P340+P312: el SGA rev. 6 no lista esta combinación; sus códigos por separado sí están]"
+  }
+ ],
+ "proteccion": {
+  "texto": "Engineering measures : The level of protection and types of controls necessary will vary depending upon potential exposure conditions. Select controls based on a risk assessment of local circumstances. Appropriate measures include: Use sealed systems as far as possible. Firewater monitors and deluge systems are recommended. Adequate explosion-proof ventilation to control airborne con- centrations below the exposure guidelines/limits. Local exhaust ventilation is recommended. E ye washes and showers for emergency use. G eneral Information Always observe good personal hygiene measures, such as washing hands after handling the material and before eating, drinking, and/or smoking. Routinely wash work clothing and protective equipment to remove contaminants. Discard con- taminated clothing and footwear that cannot be cleaned. Practice good housekeeping. Define procedures for safe handling and maintenance of controls. Educate and train workers in the hazards and control measures relevant to normal activities associated with this product. Ensure appropriate selection, testing and maintenance of equipment used to control exposure, e.g. personal protective equipment, local exhaust ventilation. Drain down system prior to equipment break-in or mainte- nance. Retain drain downs in sealed storage pending disposal or subsequent recycle. Do not ingest. If swallowed, then seek immediate medical a ssistance Personal protective equipment R espiratory protection : If engineering controls do not maintain airborne concentra- tions to a level which is adequate to protect worker health, select respiratory protection equipment suitable for the spe- cific conditions of use and meeting relevant legislation. Check with respiratory protective equipment suppliers. Where air-filtering respirators ar",
+  "pagina": 10,
+  "estado": "encontrado",
+  "cortado": true,
+  "cita": "Engineering measures : The level of protection and types of controls necessary will"
+ }
+}
